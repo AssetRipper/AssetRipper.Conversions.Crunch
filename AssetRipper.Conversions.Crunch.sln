@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11012.119 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRipper.Conversions.Crunch", "AssetRipper.Conversions.Crunch\AssetRipper.Conversions.Crunch.csproj", "{9FBCF75A-A265-68DF-F9A8-1544182F6E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9700A52B-5306-4CB6-BE16-1034FF0C63B7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+		source.cpp = source.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBCF75A-A265-68DF-F9A8-1544182F6E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBCF75A-A265-68DF-F9A8-1544182F6E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBCF75A-A265-68DF-F9A8-1544182F6E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBCF75A-A265-68DF-F9A8-1544182F6E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4159CD3B-0DDE-43BB-8032-421D3FE25C73}
+	EndGlobalSection
+EndGlobal
