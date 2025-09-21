@@ -7,43 +7,24 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("crnd_new")]
 internal static partial class crnd_new_vzd3zqa
 {
-	private partial struct LocalVariables
+	[return: NativeType("class crnd::prefix_coding::decoder_tables *")]
+	public unsafe static void* Invoke([NativeType("class crnd::prefix_coding::decoder_tables const &")] void* init)
 	{
-		public unsafe void* field_0;
-
-		public unsafe void* field_1;
-
-		public unsafe void* field_2;
-	}
-
-	public unsafe static void* Invoke(void* init)
-	{
-		StackFrame startFrame = StackFrameList.Current.New<LocalVariables>();
-		startFrame.GetLocalsPointer<LocalVariables>()->field_0 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_1 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_2 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_1 = init;
-		void* field_ = crnd_malloc.Invoke(192L, null);
+		void* ptr = crnd_malloc.Invoke(192L, null);
 		if (ExceptionInfo.Current != null)
 		{
 			return null;
 		}
-		startFrame.GetLocalsPointer<LocalVariables>()->field_2 = field_;
-		if (startFrame.GetLocalsPointer<LocalVariables>()->field_2 == null)
+		void* ptr2 = ptr;
+		if (ptr2 == null)
 		{
-			startFrame.GetLocalsPointer<LocalVariables>()->field_0 = null;
+			return null;
 		}
-		else
+		void* result = construct_zybj4yc.Invoke(ptr2, init);
+		if (ExceptionInfo.Current != null)
 		{
-			void* field_2 = construct_zybj4yc.Invoke(init: startFrame.GetLocalsPointer<LocalVariables>()->field_1, p: startFrame.GetLocalsPointer<LocalVariables>()->field_2);
-			if (ExceptionInfo.Current != null)
-			{
-				return null;
-			}
-			startFrame.GetLocalsPointer<LocalVariables>()->field_0 = field_2;
+			return null;
 		}
-		void* field_3 = startFrame.GetLocalsPointer<LocalVariables>()->field_0;
-		StackFrameList.Current.Clear(startFrame);
-		return field_3;
+		return result;
 	}
 }

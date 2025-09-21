@@ -6,28 +6,25 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("unsigned int __cdecl crnd::utils::compute_max_mips(unsigned int, unsigned int)")]
 internal static partial class compute_max_mips
 {
-	public static int Invoke(int width, int height)
+	[return: NativeType("unsigned int")]
+	public static int Invoke([NativeType("unsigned int")] int width, [NativeType("unsigned int")] int height)
 	{
-		int num = 0;
-		int num2 = 0;
-		int num3 = 0;
-		int num4 = 0;
-		num2 = height;
-		num3 = width;
-		if ((num3 | num2) == 0)
+		int num = height;
+		int num2 = width;
+		if ((num2 | num) == 0)
 		{
 			return 0;
 		}
-		num4 = 1;
+		int num3 = 1;
 		unchecked
 		{
-			while (((uint)num3 <= 1u) ? ((uint)num2 > 1u) : true)
+			while (((uint)num2 <= 1u) ? ((uint)num > 1u) : true)
 			{
-				num3 >>>= 1;
 				num2 >>>= 1;
-				num4++;
+				num >>>= 1;
+				num3++;
 			}
-			return num4;
+			return num3;
 		}
 	}
 }

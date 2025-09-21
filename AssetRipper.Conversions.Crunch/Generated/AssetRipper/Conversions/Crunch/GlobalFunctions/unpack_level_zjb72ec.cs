@@ -8,72 +8,54 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("unpack_level")]
 internal static partial class unpack_level_zjb72ec
 {
-	public unsafe static bool Invoke(void* @this, void* pSrc, int src_size_in_bytes, void* pDst, int dst_size_in_bytes, int row_pitch_in_bytes, int level_index)
+	[return: NativeType("bool")]
+	public unsafe static bool Invoke(void* @this, [NativeType("void const *")] void* pSrc, [NativeType("unsigned int")] int src_size_in_bytes, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
 	{
-		bool flag = false;
-		int num = 0;
-		int num2 = 0;
-		void* ptr = null;
-		int num3 = 0;
-		void* ptr2 = null;
-		int num4 = 0;
-		int num5 = 0;
-		int num6 = 0;
-		int num7 = 0;
-		int num8 = 0;
-		int num9 = 0;
-		sbyte b = 0;
-		num = row_pitch_in_bytes;
-		num2 = dst_size_in_bytes;
-		ptr = pDst;
-		num3 = src_size_in_bytes;
-		ptr2 = pSrc;
+		int num = row_pitch_in_bytes;
 		unchecked
 		{
-			int num10 = maximum.Invoke(operator_unsigned_int_f3crpsb.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_5) >>> level_index, 1);
-			int num11 = maximum.Invoke(operator_unsigned_int_f3crpsb.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_6) >>> level_index, 1);
-			num4 = num10 + 3 >>> 2;
-			num5 = num11 + 3 >>> 2;
-			bool flag2 = ((operator_unsigned_int_neugqod.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9) != 0) ? (operator_unsigned_int_neugqod.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9) == 9) : true);
-			_ = flag2;
-			num7 = InstructionHelper.Select(flag2, 8, 16) * num4;
+			int num2 = maximum.Invoke(crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_5) >>> level_index, 1);
+			int num3 = maximum.Invoke(crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_6) >>> level_index, 1);
+			int num4 = num2 + 3 >>> 2;
+			int num5 = num3 + 3 >>> 2;
+			int num6 = InstructionHelper.Select((crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9) != 0) ? (crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9) == 9) : true, 8, 16) * num4;
 			if (num == 0)
 			{
-				num = num7;
+				num = num6;
 			}
-			else if ((uint)num < (uint)num7 || (num & 3) != 0)
+			else if ((uint)num < (uint)num6 || (num & 3) != 0)
 			{
 				return false;
 			}
-			if ((uint)num2 < (uint)(num * num5))
+			if ((uint)dst_size_in_bytes < (uint)(num * num5))
 			{
 				return false;
 			}
-			num8 = num4 + 1 >>> 1;
-			num9 = num5 + 1 >>> 1;
-			if (!start_decoding.Invoke(&((crnd_crn_unpacker*)@this)->field_5, ptr2, num3))
+			int chunks_x = num4 + 1 >>> 1;
+			int chunks_y = num5 + 1 >>> 1;
+			if (!start_decoding.Invoke(&((crnd_crn_unpacker*)@this)->field_5, pSrc, src_size_in_bytes))
 			{
 				return false;
 			}
-			b = 0;
-			switch (operator_unsigned_int_neugqod.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9))
+			sbyte b;
+			switch (crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_9))
 			{
 			case 0:
-				b = (unpack_dxt1.Invoke(@this, ptr, num2, num, num4, num5, num8, num9) ? ((sbyte)1) : ((sbyte)0));
+				b = (unpack_dxt1.Invoke(@this, pDst, dst_size_in_bytes, num, num4, num5, chunks_x, chunks_y) ? ((sbyte)1) : ((sbyte)0));
 				break;
 			case 2:
 			case 3:
 			case 4:
 			case 5:
 			case 6:
-				b = (unpack_dxt5.Invoke(@this, ptr, num2, num, num4, num5, num8, num9) ? ((sbyte)1) : ((sbyte)0));
+				b = (unpack_dxt5.Invoke(@this, pDst, dst_size_in_bytes, num, num4, num5, chunks_x, chunks_y) ? ((sbyte)1) : ((sbyte)0));
 				break;
 			case 9:
-				b = (unpack_dxt5a.Invoke(@this, ptr, num2, num, num4, num5, num8, num9) ? ((sbyte)1) : ((sbyte)0));
+				b = (unpack_dxt5a.Invoke(@this, pDst, dst_size_in_bytes, num, num4, num5, chunks_x, chunks_y) ? ((sbyte)1) : ((sbyte)0));
 				break;
 			case 7:
 			case 8:
-				b = (unpack_dxn.Invoke(@this, ptr, num2, num, num4, num5, num8, num9) ? ((sbyte)1) : ((sbyte)0));
+				b = (unpack_dxn.Invoke(@this, pDst, dst_size_in_bytes, num, num4, num5, chunks_x, chunks_y) ? ((sbyte)1) : ((sbyte)0));
 				break;
 			default:
 				return false;

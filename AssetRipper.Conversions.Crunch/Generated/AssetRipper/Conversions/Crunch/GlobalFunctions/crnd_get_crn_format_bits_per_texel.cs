@@ -7,9 +7,9 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("unsigned int __cdecl crnd::crnd_get_crn_format_bits_per_texel(enum crn_format)")]
 internal static partial class crnd_get_crn_format_bits_per_texel
 {
-	public unsafe static int Invoke(int fmt)
+	[return: NativeType("unsigned int")]
+	public unsafe static int Invoke([NativeType("enum crn_format")] int fmt)
 	{
-		int num = 0;
 		switch (fmt)
 		{
 		case 0:

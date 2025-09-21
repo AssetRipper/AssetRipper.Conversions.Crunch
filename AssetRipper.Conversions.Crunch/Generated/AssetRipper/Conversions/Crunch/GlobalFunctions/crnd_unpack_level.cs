@@ -6,29 +6,17 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("bool __cdecl crnd::crnd_unpack_level(void *, void **, unsigned int, unsigned int, unsigned int)")]
 internal static partial class crnd_unpack_level
 {
-	public unsafe static bool Invoke(void* pContext, void* pDst, int dst_size_in_bytes, int row_pitch_in_bytes, int level_index)
+	[return: NativeType("bool")]
+	public unsafe static bool Invoke([NativeType("void *")] void* pContext, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
 	{
-		bool flag = false;
-		int num = 0;
-		int num2 = 0;
-		int num3 = 0;
-		void* ptr = null;
-		void* ptr2 = null;
-		void* ptr3 = null;
-		num = level_index;
-		num2 = row_pitch_in_bytes;
-		num3 = dst_size_in_bytes;
-		ptr = pDst;
-		ptr2 = pContext;
-		if (unchecked(ptr2 == null || ptr == null || (uint)num3 < 8u || (uint)num >= 16u))
+		if (unchecked(pContext == null || pDst == null || (uint)dst_size_in_bytes < 8u || (uint)level_index >= 16u))
 		{
 			return false;
 		}
-		ptr3 = ptr2;
-		if (!is_valid.Invoke(ptr3))
+		if (!is_valid.Invoke(pContext))
 		{
 			return false;
 		}
-		return unpack_level_cvfjdga.Invoke(ptr3, ptr, num3, num2, num);
+		return unpack_level_cvfjdga.Invoke(pContext, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
 	}
 }

@@ -9,8 +9,6 @@ internal static partial class crn_header_Constructor
 {
 	public unsafe static void* Invoke(void* @this)
 	{
-		void* ptr = null;
-		ptr = @this;
 		unchecked
 		{
 			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_0);
@@ -33,21 +31,21 @@ internal static partial class crn_header_Constructor
 			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->field_17);
 			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_18);
 			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_header*)@this)->field_19);
-			crnd_crn_packed_uint_0* field_ = (crnd_crn_packed_uint_0*)(&((crnd_crn_header*)@this)->field_20);
-			crnd_crn_packed_uint_0* ptr2 = field_ + 1;
-			crnd_crn_packed_uint_0* intPtr = field_;
+			crnd_crn_packed_uint_jymcebc* field_ = (crnd_crn_packed_uint_jymcebc*)(&((crnd_crn_header*)@this)->field_20);
+			crnd_crn_packed_uint_jymcebc* ptr = field_ + 1;
+			crnd_crn_packed_uint_jymcebc* intPtr = field_;
 			while (true)
 			{
-				void* ptr3 = intPtr;
-				crn_packed_uint_4_Constructor.Invoke(ptr3);
-				crnd_crn_packed_uint_0* ptr4 = (crnd_crn_packed_uint_0*)ptr3 + 1;
-				if (ptr4 == ptr2)
+				void* ptr2 = intPtr;
+				crn_packed_uint_4_Constructor.Invoke(ptr2);
+				crnd_crn_packed_uint_jymcebc* ptr3 = (crnd_crn_packed_uint_jymcebc*)ptr2 + 1;
+				if (ptr3 == ptr)
 				{
 					break;
 				}
-				intPtr = ptr4;
+				intPtr = ptr3;
 			}
-			return ptr;
+			return @this;
 		}
 	}
 }

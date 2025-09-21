@@ -8,9 +8,9 @@ namespace AssetRipper.Conversions.Crunch.GlobalVariables;
 [DemangledName("struct crnd::chunk_tile_desc *crnd::g_chunk_tile_layouts")]
 internal static partial class g_chunk_tile_layouts
 {
-	private static InlineArray_9_pfnb5sb __value;
+	private static InlineArray9_crnd_chunk_tile_desc __value;
 
-	public static InlineArray_9_pfnb5sb Value
+	public static InlineArray9_crnd_chunk_tile_desc Value
 	{
 		get
 		{
@@ -24,7 +24,7 @@ internal static partial class g_chunk_tile_layouts
 
 	static g_chunk_tile_layouts()
 	{
-		Value = new InlineArrayBuilder<InlineArray_9_pfnb5sb, crnd_chunk_tile_desc>
+		Value = new InlineArrayBuilder<InlineArray9_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 		{
 			new crnd_chunk_tile_desc
 			{

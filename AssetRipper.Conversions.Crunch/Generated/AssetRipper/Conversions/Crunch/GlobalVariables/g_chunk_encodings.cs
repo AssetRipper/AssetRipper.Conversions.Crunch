@@ -8,9 +8,9 @@ namespace AssetRipper.Conversions.Crunch.GlobalVariables;
 [DemangledName("struct crnd::chunk_encoding_desc *crnd::g_chunk_encodings")]
 internal static partial class g_chunk_encodings
 {
-	private static InlineArray_8_s9wscya __value;
+	private static InlineArray8_crnd_chunk_encoding_desc __value;
 
-	public static InlineArray_8_s9wscya Value
+	public static InlineArray8_crnd_chunk_encoding_desc Value
 	{
 		get
 		{
@@ -24,12 +24,12 @@ internal static partial class g_chunk_encodings
 
 	static g_chunk_encodings()
 	{
-		Value = new InlineArrayBuilder<InlineArray_8_s9wscya, crnd_chunk_encoding_desc>
+		Value = new InlineArrayBuilder<InlineArray8_crnd_chunk_encoding_desc, crnd_chunk_encoding_desc>
 		{
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 1,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -47,7 +47,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 2,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -72,7 +72,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 2,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -97,7 +97,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 3,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -129,7 +129,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 3,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -161,7 +161,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 3,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -193,7 +193,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 3,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{
@@ -225,7 +225,7 @@ internal static partial class g_chunk_encodings
 			new crnd_chunk_encoding_desc
 			{
 				field_0 = 4,
-				field_1 = new InlineArrayBuilder<InlineArray_4_pfnb5sb, crnd_chunk_tile_desc>
+				field_1 = new InlineArrayBuilder<InlineArray4_crnd_chunk_tile_desc, crnd_chunk_tile_desc>
 				{
 					new crnd_chunk_tile_desc
 					{

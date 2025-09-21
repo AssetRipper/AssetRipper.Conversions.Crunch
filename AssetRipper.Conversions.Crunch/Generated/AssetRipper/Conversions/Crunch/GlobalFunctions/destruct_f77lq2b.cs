@@ -7,17 +7,9 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("destruct")]
 internal static partial class destruct_f77lq2b
 {
-	private partial struct LocalVariables
+	[return: NativeType("void")]
+	public unsafe static void Invoke([NativeType("class crnd::crn_unpacker *")] void* p)
 	{
-	}
-
-	public unsafe static void Invoke(void* p)
-	{
-		StackFrame startFrame = StackFrameList.Current.New<LocalVariables>();
 		crn_unpacker_Destructor.Invoke(p);
-		if (ExceptionInfo.Current == null)
-		{
-			StackFrameList.Current.Clear(startFrame);
-		}
 	}
 }

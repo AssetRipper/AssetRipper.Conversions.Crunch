@@ -5,6 +5,7 @@ namespace AssetRipper.Conversions.Crunch.Structures;
 
 [StructLayout(LayoutKind.Explicit, Size = 20)]
 [MangledName("struct.crnd::chunk_tile_desc")]
+[DemangledName("crnd::chunk_tile_desc")]
 public partial struct crnd_chunk_tile_desc
 {
 	[FieldOffset(0)]

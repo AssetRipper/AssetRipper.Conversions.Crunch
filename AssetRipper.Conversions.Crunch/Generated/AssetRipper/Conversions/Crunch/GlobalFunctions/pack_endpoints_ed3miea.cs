@@ -8,22 +8,13 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("pack_endpoints")]
 internal static partial class pack_endpoints_ed3miea
 {
-	public unsafe static int Invoke(int lo, int hi)
+	[return: NativeType("unsigned int")]
+	public unsafe static int Invoke([NativeType("unsigned int")] int lo, [NativeType("unsigned int")] int hi)
 	{
-		int num = 0;
-		int num2 = 0;
-		num = hi;
-		num2 = lo;
-		int num3;
-		if (unchecked((uint)num2 <= 255u && (uint)num <= 255u))
-		{
-			num3 = -1;
-		}
-		else
+		if (unchecked((uint)lo > 255u || (uint)hi > 255u))
 		{
 			crnd_assert.Invoke(String_7bcfjea.__pointer, String_yguirrd.__pointer, 3564);
-			num3 = 0;
 		}
-		return num2 | (num << 8);
+		return lo | (hi << 8);
 	}
 }

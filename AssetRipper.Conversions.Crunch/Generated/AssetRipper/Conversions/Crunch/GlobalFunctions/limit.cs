@@ -6,7 +6,8 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("private: static void __cdecl crnd::crn_unpacker::limit(unsigned int &, unsigned int)")]
 internal static partial class limit
 {
-	public unsafe static void Invoke(void* x, int n)
+	[return: NativeType("void")]
+	public unsafe static void Invoke([NativeType("unsigned int &")] void* x, [NativeType("unsigned int")] int n)
 	{
 		unchecked
 		{

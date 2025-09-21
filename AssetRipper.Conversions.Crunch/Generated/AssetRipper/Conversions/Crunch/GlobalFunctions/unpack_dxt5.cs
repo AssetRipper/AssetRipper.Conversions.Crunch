@@ -10,143 +10,100 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("private: bool __cdecl crnd::crn_unpacker::unpack_dxt5(unsigned char **, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)")]
 internal static partial class unpack_dxt5
 {
-	public unsafe static bool Invoke(void* @this, void* pDst, int dst_size_in_bytes, int row_pitch_in_bytes, int blocks_x, int blocks_y, int chunks_x, int chunks_y)
+	[return: NativeType("bool")]
+	public unsafe static bool Invoke(void* @this, [NativeType("unsigned char **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int blocks_x, [NativeType("unsigned int")] int blocks_y, [NativeType("unsigned int")] int chunks_x, [NativeType("unsigned int")] int chunks_y)
 	{
 		int num = 0;
 		int num2 = 0;
 		int num3 = 0;
 		int num4 = 0;
-		int num5 = 0;
-		void* ptr = null;
-		int num6 = 0;
-		int num7 = 0;
-		int num8 = 0;
-		int num9 = 0;
-		int num10 = 0;
-		int num11 = 0;
-		int num12 = 0;
-		int num13 = 0;
-		int num14 = 0;
-		int num15 = 0;
-		int num16 = 0;
-		void* ptr2 = null;
-		int num17 = 0;
-		int num18 = 0;
-		int num19 = 0;
-		int num20 = 0;
-		int num21 = 0;
-		void* ptr3 = null;
-		sbyte b = 0;
-		int num22 = 0;
-		InlineArray_4_vqkfj7a inlineArray_4_vqkfj7a = default(InlineArray_4_vqkfj7a);
-		InlineArray_4_vqkfj7a inlineArray_4_vqkfj7a2 = default(InlineArray_4_vqkfj7a);
-		int num23 = 0;
-		int num24 = 0;
-		void* ptr4 = null;
-		sbyte b2 = 0;
-		void* ptr5 = null;
-		int num25 = 0;
-		int num26 = 0;
-		int num27 = 0;
-		int num28 = 0;
-		int num29 = 0;
-		int num30 = 0;
-		int num31 = 0;
-		int num32 = 0;
-		int num33 = 0;
-		void* ptr6 = null;
-		num = chunks_y;
-		num2 = chunks_x;
-		num3 = blocks_y;
-		num4 = blocks_x;
-		num5 = row_pitch_in_bytes;
-		ptr = pDst;
-		num6 = 1;
+		InlineArray4_Int32 inlineArray4_Int = default(InlineArray4_Int32);
+		InlineArray4_Int32 inlineArray4_Int2 = default(InlineArray4_Int32);
+		int num5 = 1;
 		unchecked
 		{
-			num7 = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_9);
-			num8 = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_10);
-			num9 = size_lxodu4b.Invoke(&((crnd_crn_unpacker*)@this)->field_11);
-			num10 = operator_unsigned_int_f3crpsb.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_17.field_2);
-			num11 = 0;
-			num12 = 0;
-			num13 = 0;
-			num14 = 0;
-			num15 = operator_unsigned_int_neugqod.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_8);
-			for (num16 = 0; (uint)num16 < (uint)num15; num16++)
+			int n = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_9);
+			int n2 = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_10);
+			int n3 = size_lxodu4b.Invoke(&((crnd_crn_unpacker*)@this)->field_11);
+			int n4 = crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_17.field_2);
+			num = 0;
+			num2 = 0;
+			num3 = 0;
+			num4 = 0;
+			int num6 = crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_8);
+			for (int i = 0; (uint)i < (uint)num6; i++)
 			{
-				ptr2 = ((void**)ptr)[(uint)num16];
-				for (num17 = 0; (uint)num17 < (uint)num; num17++)
+				void* ptr = ((void**)pDst)[(uint)i];
+				for (int j = 0; (uint)j < (uint)chunks_y; j++)
 				{
-					num18 = 0;
-					num19 = num2;
-					num20 = 1;
-					num21 = 32;
-					ptr3 = ptr2;
-					if ((num17 & 1) != 0)
+					int num7 = 0;
+					int num8 = chunks_x;
+					int num9 = 1;
+					int num10 = 32;
+					void* ptr2 = ptr;
+					if ((j & 1) != 0)
 					{
-						num18 = num2 - 1;
-						num19 = -1;
-						num20 = -1;
-						num21 = -32;
-						ptr3 = (byte*)ptr3 + (uint)((num2 - 1) * 16 * 2);
+						num7 = chunks_x - 1;
+						num8 = -1;
+						num9 = -1;
+						num10 = -32;
+						ptr2 = (byte*)ptr2 + (uint)((chunks_x - 1) * 16 * 2);
 					}
-					b = ((num17 == num - 1 && (num3 & 1) != 0) ? ((sbyte)1) : ((sbyte)0));
-					for (num22 = num18; num22 != num19; num22 = checked(num22 + num20))
+					sbyte b = ((j == chunks_y - 1 && (blocks_y & 1) != 0) ? ((sbyte)1) : ((sbyte)0));
+					for (int k = num7; k != num8; k = checked(k + num9))
 					{
-						if (num6 == 1)
+						if (num5 == 1)
 						{
-							num6 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_6) | 0x200;
+							num5 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_6) | 0x200;
 						}
-						num23 = num6 & 7;
-						num6 >>>= 3;
-						num24 = (byte)((sbyte*)g_crnd_chunk_encoding_num_tiles.__pointer)[(uint)num23];
-						ptr4 = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num23].field_0;
-						b2 = (((num4 & 1) != 0 && num22 == checked(num2 - 1)) ? ((sbyte)1) : ((sbyte)0));
-						ptr5 = ptr3;
-						for (num25 = 0; (uint)num25 < (uint)num24; num25++)
+						int num11 = num5 & 7;
+						num5 >>>= 3;
+						int num12 = (byte)((sbyte*)g_crnd_chunk_encoding_num_tiles.__pointer)[(uint)num11];
+						void* field_ = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num11].field_0;
+						sbyte b2 = (((blocks_x & 1) != 0 && k == checked(chunks_x - 1)) ? ((sbyte)1) : ((sbyte)0));
+						for (int l = 0; (uint)l < (uint)num12; l++)
 						{
-							num26 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_7) + sizeof(crnd_static_huffman_data_model));
-							num13 += num26;
-							limit.Invoke(&num13, num9);
-							Unsafe.As<InlineArray_4_vqkfj7a, int>(ref Unsafe.AddByteOffset(ref inlineArray_4_vqkfj7a2, (nint)(uint)num25 * (nint)4)) = (ushort)(*(short*)Index_uimxdqb.Invoke(&((crnd_crn_unpacker*)@this)->field_11, num13));
+							int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_7) + sizeof(crnd_static_huffman_data_model));
+							num3 += num13;
+							limit.Invoke(&num3, n3);
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int2, (nint)(uint)l * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_11, num3));
 						}
-						for (num27 = 0; (uint)num27 < (uint)num24; num27++)
+						for (int m = 0; (uint)m < (uint)num12; m++)
 						{
-							num28 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_7);
-							num11 += num28;
-							limit.Invoke(&num11, num7);
-							Unsafe.As<InlineArray_4_vqkfj7a, int>(ref Unsafe.AddByteOffset(ref inlineArray_4_vqkfj7a, (nint)(uint)num27 * (nint)4)) = *(int*)Index_rfutjka.Invoke(&((crnd_crn_unpacker*)@this)->field_9, num11);
+							int num14 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_7);
+							num += num14;
+							limit.Invoke(&num, n);
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)m * (nint)4)) = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_9, num);
 						}
-						ptr5 = ptr3;
-						for (num29 = 0; (uint)num29 < 2u; num29++)
+						void* ptr3 = ptr2;
+						for (int num15 = 0; (uint)num15 < 2u; num15++)
 						{
-							num30 = 0;
-							while ((uint)num30 < 2u)
+							int num16 = 0;
+							while ((uint)num16 < 2u)
 							{
-								num31 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_8) + sizeof(crnd_static_huffman_data_model));
-								num14 += num31;
-								limit.Invoke(&num14, num10);
-								num32 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
-								num12 += num32;
-								limit.Invoke(&num12, num8);
-								if ((num30 == 0 || (b2 & 1) != 1) && (num29 == 0 || (b & 1) != 1))
+								int num17 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_8) + sizeof(crnd_static_huffman_data_model));
+								num4 += num17;
+								limit.Invoke(&num4, n4);
+								int num18 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+								num2 += num18;
+								limit.Invoke(&num2, n2);
+								if ((num16 == 0 || (b2 & 1) != 1) && (num15 == 0 || (b & 1) != 1))
 								{
-									num33 = (byte)((sbyte*)ptr4)[(uint)(num30 + num29 * 2)];
-									ptr6 = Index_uimxdqb.Invoke(&((crnd_crn_unpacker*)@this)->field_12, num14 * 3);
-									*(int*)ptr5 = Unsafe.As<InlineArray_4_vqkfj7a, int>(ref Unsafe.AddByteOffset(ref inlineArray_4_vqkfj7a2, (nint)(uint)num33 * (nint)4)) | ((ushort)(*(short*)ptr6) << 16);
-									((int*)ptr5)[1] = (ushort)((short*)ptr6)[1] | ((ushort)((short*)ptr6)[2] << 16);
-									((int*)ptr5)[2] = Unsafe.As<InlineArray_4_vqkfj7a, int>(ref Unsafe.AddByteOffset(ref inlineArray_4_vqkfj7a, (nint)(uint)num33 * (nint)4));
-									((int*)ptr5)[3] = *(int*)Index_rfutjka.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num12);
+									int num19 = (byte)((sbyte*)field_)[(uint)(num16 + num15 * 2)];
+									void* ptr4 = vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_12, num4 * 3);
+									*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int2, (nint)(uint)num19 * (nint)4)) | ((ushort)(*(short*)ptr4) << 16);
+									((int*)ptr3)[1] = (ushort)((short*)ptr4)[1] | ((ushort)((short*)ptr4)[2] << 16);
+									((int*)ptr3)[2] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)num19 * (nint)4));
+									((int*)ptr3)[3] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
 								}
-								num30++;
-								ptr5 = (byte*)ptr5 + 16;
+								num16++;
+								ptr3 = (byte*)ptr3 + 16;
 							}
-							ptr5 = (byte*)ptr5 + -32 + (uint)num5;
+							ptr3 = (byte*)ptr3 + -32 + (uint)row_pitch_in_bytes;
 						}
-						ptr3 = (byte*)ptr3 + num21;
+						ptr2 = (byte*)ptr2 + num10;
 					}
-					ptr2 = (byte*)ptr2 + (uint)(num5 * 2);
+					ptr = (byte*)ptr + (uint)(row_pitch_in_bytes * 2);
 				}
 			}
 			return true;

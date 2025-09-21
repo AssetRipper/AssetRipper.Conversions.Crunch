@@ -9,81 +9,60 @@ internal static partial class crnd_malloc
 {
 	private partial struct LocalVariables
 	{
-		public unsafe void* field_0;
-
-		public unsafe void* field_1;
-
-		public long field_2;
-
-		public long field_3;
-
-		public unsafe void* field_4;
+		public long field_0;
 	}
 
-	public unsafe static void* Invoke(long size, void* pActual_size)
+	[return: NativeType("void *")]
+	public unsafe static void* Invoke([NativeType("unsigned __int64")] long size, [NativeType("unsigned __int64 *")] void* pActual_size)
 	{
 		StackFrame startFrame = StackFrameList.Current.New<LocalVariables>();
-		startFrame.GetLocalsPointer<LocalVariables>()->field_0 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_1 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_2 = 0L;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_3 = 0L;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_4 = null;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_1 = pActual_size;
-		startFrame.GetLocalsPointer<LocalVariables>()->field_2 = size;
+		LocalVariables* localsPointer = startFrame.GetLocalsPointer<LocalVariables>();
+		localsPointer->field_0 = 0L;
 		unchecked
 		{
-			long field_ = (startFrame.GetLocalsPointer<LocalVariables>()->field_2 + 4L - 1L) & -4L;
-			startFrame.GetLocalsPointer<LocalVariables>()->field_2 = field_;
-			if (startFrame.GetLocalsPointer<LocalVariables>()->field_2 == 0L)
+			long num = (size + 4L - 1L) & -4L;
+			if (num == 0L)
 			{
-				startFrame.GetLocalsPointer<LocalVariables>()->field_2 = 4L;
+				num = 4L;
 			}
-			if ((ulong)startFrame.GetLocalsPointer<LocalVariables>()->field_2 > 2147418112uL)
+			void* ptr;
+			if ((ulong)num > 2147418112uL)
 			{
 				crnd_mem_error.Invoke(String_ypy7scc.__pointer);
-				startFrame.GetLocalsPointer<LocalVariables>()->field_0 = null;
+				ptr = null;
 			}
 			else
 			{
-				long field_2 = startFrame.GetLocalsPointer<LocalVariables>()->field_2;
-				startFrame.GetLocalsPointer<LocalVariables>()->field_3 = field_2;
+				localsPointer->field_0 = num;
 				void* value = g_pRealloc.Value;
 				void* value2 = g_pUser_data.Value;
-				void* field_3 = ((delegate*<void*, long, long*, bool, void*, void*>)value)(null, startFrame.GetLocalsPointer<LocalVariables>()->field_2, &startFrame.GetLocalsPointer<LocalVariables>()->field_3, true, value2);
+				void* ptr2 = ((delegate*<void*, long, long*, bool, void*, void*>)value)(null, num, &localsPointer->field_0, true, value2);
 				if (ExceptionInfo.Current != null)
 				{
 					return null;
 				}
-				startFrame.GetLocalsPointer<LocalVariables>()->field_4 = field_3;
-				if (startFrame.GetLocalsPointer<LocalVariables>()->field_1 != null)
+				void* ptr3 = ptr2;
+				if (pActual_size != null)
 				{
-					long field_4 = startFrame.GetLocalsPointer<LocalVariables>()->field_3;
-					*(long*)startFrame.GetLocalsPointer<LocalVariables>()->field_1 = field_4;
+					*(long*)pActual_size = localsPointer->field_0;
 				}
-				if (startFrame.GetLocalsPointer<LocalVariables>()->field_4 == null || (ulong)startFrame.GetLocalsPointer<LocalVariables>()->field_3 < (ulong)startFrame.GetLocalsPointer<LocalVariables>()->field_2)
+				if (ptr3 == null || (ulong)localsPointer->field_0 < (ulong)num)
 				{
 					crnd_mem_error.Invoke(String_xewaojb.__pointer);
-					startFrame.GetLocalsPointer<LocalVariables>()->field_0 = null;
+					ptr = null;
 				}
 				else
 				{
-					int num;
-					if (((int)startFrame.GetLocalsPointer<LocalVariables>()->field_4 & 7) == 0)
-					{
-						num = -1;
-					}
-					else
+					if (((int)ptr3 & 7) != 0)
 					{
 						crnd_assert.Invoke(String_e9ixvnc.__pointer, String_yguirrd.__pointer, 2533);
-						num = 0;
 					}
-					void* field_5 = startFrame.GetLocalsPointer<LocalVariables>()->field_4;
-					startFrame.GetLocalsPointer<LocalVariables>()->field_0 = field_5;
+					ptr = ptr3;
 				}
 			}
-			void* field_6 = startFrame.GetLocalsPointer<LocalVariables>()->field_0;
+			void* result = ptr;
 			StackFrameList.Current.Clear(startFrame);
-			return field_6;
+			return result;
 		}
 	}
 }

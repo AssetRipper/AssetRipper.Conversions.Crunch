@@ -8,25 +8,16 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("unpack_endpoint")]
 internal static partial class unpack_endpoint_w5z4hwb
 {
-	public unsafe static int Invoke(int packed, int index)
+	[return: NativeType("unsigned int")]
+	public unsafe static int Invoke([NativeType("unsigned int")] int packed, [NativeType("unsigned int")] int index)
 	{
-		int num = 0;
-		int num2 = 0;
-		num = index;
-		num2 = packed;
 		unchecked
 		{
-			int num3;
-			if ((uint)num < 2u)
-			{
-				num3 = -1;
-			}
-			else
+			if ((uint)index >= 2u)
 			{
 				crnd_assert.Invoke(String_4tt2t2d.__pointer, String_yguirrd.__pointer, 3558);
-				num3 = 0;
 			}
-			return (num2 >>> 8 * num) & 0xFF;
+			return (packed >>> 8 * index) & 0xFF;
 		}
 	}
 }

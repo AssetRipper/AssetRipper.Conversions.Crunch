@@ -8,7 +8,8 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("zero_object")]
 internal static partial class zero_object_vtkonjd
 {
-	public unsafe static void Invoke(void* obj)
+	[return: NativeType("void")]
+	public unsafe static void Invoke([NativeType("unsigned int (&)[16]")] void* obj)
 	{
 		llvm_memset_p0_i64.Invoke(obj, 0, 64L, isVolatile: false);
 	}

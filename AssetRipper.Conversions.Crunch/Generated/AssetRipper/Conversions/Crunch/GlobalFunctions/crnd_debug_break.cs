@@ -6,6 +6,7 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("void __cdecl crnd::crnd_debug_break(void)")]
 internal static partial class crnd_debug_break
 {
+	[return: NativeType("void")]
 	public static void Invoke()
 	{
 	}

@@ -1,8 +1,10 @@
+using AssetRipper.Conversions.Crunch.Helpers;
+
 namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 
 internal static partial class vsprintf
 {
-	public unsafe static int Invoke(void* Buffer, void* Format, void* ArgList)
+	public unsafe static int Invoke([MangledName("_Buffer")] void* Buffer, [MangledName("_Format")] void* Format, [MangledName("_ArgList")] void* ArgList)
 	{
 		return vsnprintf_l.Invoke(Buffer, -1L, Format, null, ArgList);
 	}

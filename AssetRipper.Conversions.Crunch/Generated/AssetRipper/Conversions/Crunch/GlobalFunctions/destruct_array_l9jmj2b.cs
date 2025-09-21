@@ -7,7 +7,8 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("destruct_array")]
 internal static partial class destruct_array_l9jmj2b
 {
-	public unsafe static void Invoke(void* p, int n)
+	[return: NativeType("void")]
+	public unsafe static void Invoke([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
 	{
 	}
 }

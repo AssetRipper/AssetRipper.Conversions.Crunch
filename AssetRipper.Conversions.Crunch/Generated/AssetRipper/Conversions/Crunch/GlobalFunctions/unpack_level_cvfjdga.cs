@@ -9,37 +9,22 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [CleanName("unpack_level")]
 internal static partial class unpack_level_cvfjdga
 {
-	public unsafe static bool Invoke(void* @this, void* pDst, int dst_size_in_bytes, int row_pitch_in_bytes, int level_index)
+	[return: NativeType("bool")]
+	public unsafe static bool Invoke(void* @this, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
 	{
-		int num = 0;
-		int num2 = 0;
-		int num3 = 0;
-		void* ptr = null;
-		int num4 = 0;
-		int num5 = 0;
-		num = level_index;
-		num2 = row_pitch_in_bytes;
-		num3 = dst_size_in_bytes;
-		ptr = pDst;
 		unchecked
 		{
-			num4 = operator_unsigned_int_uxo4hgd.Invoke((byte*)(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_20) + (nint)(uint)num * (nint)sizeof(crnd_crn_packed_uint_0));
-			num5 = ((crnd_crn_unpacker*)@this)->field_2;
-			if ((uint)(num + 1) < (uint)operator_unsigned_int_neugqod.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_7))
+			int num = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_20) + (nint)(uint)level_index * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
+			int num2 = ((crnd_crn_unpacker*)@this)->field_2;
+			if ((uint)(level_index + 1) < (uint)crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_7))
 			{
-				num5 = operator_unsigned_int_uxo4hgd.Invoke((byte*)(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_20) + (nint)(uint)(num + 1) * (nint)sizeof(crnd_crn_packed_uint_0));
+				num2 = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_20) + (nint)(uint)(level_index + 1) * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
 			}
-			int num6;
-			if ((uint)num5 > (uint)num4)
-			{
-				num6 = -1;
-			}
-			else
+			if ((uint)num2 <= (uint)num)
 			{
 				crnd_assert.Invoke(String_huvyfmc.__pointer, String_yguirrd.__pointer, 3694);
-				num6 = 0;
 			}
-			return unpack_level_zjb72ec.Invoke(@this, (byte*)((crnd_crn_unpacker*)@this)->field_1 + (uint)num4, num5 - num4, ptr, num3, num2, num);
+			return unpack_level_zjb72ec.Invoke(@this, (byte*)((crnd_crn_unpacker*)@this)->field_1 + (uint)num, num2 - num, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
 		}
 	}
 }

@@ -7,13 +7,8 @@ namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
 [DemangledName("public: __cdecl crnd::crn_unpacker::~crn_unpacker(void)")]
 internal static partial class crn_unpacker_Destructor
 {
-	private partial struct LocalVariables
-	{
-	}
-
 	public unsafe static void Invoke(void* @this)
 	{
-		StackFrame startFrame = StackFrameList.Current.New<LocalVariables>();
 		unchecked
 		{
 			((crnd_crn_unpacker*)@this)->field_0 = 0;
@@ -70,10 +65,6 @@ internal static partial class crn_unpacker_Destructor
 				num2 = (nint)ptr2;
 			}
 			static_huffman_data_model_Destructor.Invoke(&((crnd_crn_unpacker*)@this)->field_6);
-			if (ExceptionInfo.Current == null)
-			{
-				StackFrameList.Current.Clear(startFrame);
-			}
 		}
 	}
 }

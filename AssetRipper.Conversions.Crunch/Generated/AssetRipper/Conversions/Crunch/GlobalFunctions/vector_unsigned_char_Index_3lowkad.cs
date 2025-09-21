@@ -1,0 +1,24 @@
+using AssetRipper.Conversions.Crunch.GlobalVariables;
+using AssetRipper.Conversions.Crunch.Helpers;
+using AssetRipper.Conversions.Crunch.Structures;
+
+namespace AssetRipper.Conversions.Crunch.GlobalFunctions;
+
+[MangledName("??A?$vector@E@crnd@@QEBAAEBEI@Z")]
+[DemangledName("public: unsigned char const & __cdecl crnd::vector<unsigned char>::operator[](unsigned int) const")]
+[CleanName("vector_unsigned_char_Index")]
+internal static partial class vector_unsigned_char_Index_3lowkad
+{
+	[return: NativeType("unsigned char const &")]
+	public unsafe static void* Invoke(void* @this, [NativeType("unsigned int")] int i)
+	{
+		unchecked
+		{
+			if ((uint)i >= (uint)((crnd_vector_f3cmzmc*)@this)->field_1)
+			{
+				crnd_assert.Invoke(String_ededlgd.__pointer, String_yguirrd.__pointer, 909);
+			}
+			return (byte*)((crnd_vector_f3cmzmc*)@this)->field_0 + (uint)i;
+		}
+	}
+}
