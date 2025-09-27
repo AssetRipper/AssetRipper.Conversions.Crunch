@@ -11,29 +11,29 @@ internal static partial class crn_header_Constructor
 	{
 		unchecked
 		{
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_0);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_1);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_2);
-			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->field_3);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_4);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_5);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_6);
-			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->field_7);
-			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->field_8);
-			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->field_9);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_10);
-			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->field_11);
-			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->field_12);
-			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->field_13);
-			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->field_14);
-			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->field_15);
-			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->field_16);
-			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->field_17);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->field_18);
-			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_header*)@this)->field_19);
-			crnd_crn_packed_uint_jymcebc* field_ = (crnd_crn_packed_uint_jymcebc*)(&((crnd_crn_header*)@this)->field_20);
-			crnd_crn_packed_uint_jymcebc* ptr = field_ + 1;
-			crnd_crn_packed_uint_jymcebc* intPtr = field_;
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_sig);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_header_size);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_header_crc16);
+			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->m_data_size);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_data_crc16);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_width);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_height);
+			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->m_levels);
+			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->m_faces);
+			crn_packed_uint_1_Constructor.Invoke(&((crnd_crn_header*)@this)->m_format);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_flags);
+			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->m_reserved);
+			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->m_userdata0);
+			crn_packed_uint_4_Constructor.Invoke(&((crnd_crn_header*)@this)->m_userdata1);
+			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->m_color_endpoints);
+			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->m_color_selectors);
+			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->m_alpha_endpoints);
+			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->m_alpha_selectors);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_tables_size);
+			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_header*)@this)->m_tables_ofs);
+			crnd_crn_packed_uint_jymcebc* level_ofs = (crnd_crn_packed_uint_jymcebc*)(&((crnd_crn_header*)@this)->m_level_ofs);
+			crnd_crn_packed_uint_jymcebc* ptr = level_ofs + 1;
+			crnd_crn_packed_uint_jymcebc* intPtr = level_ofs;
 			while (true)
 			{
 				void* ptr2 = intPtr;

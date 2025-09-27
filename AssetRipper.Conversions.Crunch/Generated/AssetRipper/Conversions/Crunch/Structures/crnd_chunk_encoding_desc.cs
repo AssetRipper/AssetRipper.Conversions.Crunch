@@ -10,8 +10,8 @@ namespace AssetRipper.Conversions.Crunch.Structures;
 public partial struct crnd_chunk_encoding_desc
 {
 	[FieldOffset(0)]
-	public int field_0;
+	public int m_num_tiles;
 
 	[FieldOffset(4)]
-	public InlineArray4_crnd_chunk_tile_desc field_1;
+	public InlineArray4_crnd_chunk_tile_desc m_tiles;
 }

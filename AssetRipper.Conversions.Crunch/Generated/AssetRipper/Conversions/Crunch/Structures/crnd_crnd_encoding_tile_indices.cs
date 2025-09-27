@@ -10,5 +10,5 @@ namespace AssetRipper.Conversions.Crunch.Structures;
 public partial struct crnd_crnd_encoding_tile_indices
 {
 	[FieldOffset(0)]
-	public InlineArray4_SByte field_0;
+	public InlineArray4_SByte m_tiles;
 }

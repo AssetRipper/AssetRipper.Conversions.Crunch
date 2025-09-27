@@ -10,41 +10,41 @@ namespace AssetRipper.Conversions.Crunch.Structures;
 public partial struct crnd_crn_unpacker
 {
 	[FieldOffset(0)]
-	public int field_0;
+	public int m_magic;
 
 	[FieldOffset(8)]
-	public unsafe void* field_1;
+	public unsafe void* m_pData;
 
 	[FieldOffset(16)]
-	public int field_2;
+	public int m_data_size;
 
 	[FieldOffset(20)]
-	public crnd_crn_header field_3;
+	public crnd_crn_header m_tmp_header;
 
 	[FieldOffset(96)]
-	public unsafe void* field_4;
+	public unsafe void* m_pHeader;
 
 	[FieldOffset(104)]
-	public crnd_symbol_codec field_5;
+	public crnd_symbol_codec m_codec;
 
 	[FieldOffset(144)]
-	public crnd_static_huffman_data_model field_6;
+	public crnd_static_huffman_data_model m_chunk_encoding_dm;
 
 	[FieldOffset(184)]
-	public InlineArray2_crnd_static_huffman_data_model field_7;
+	public InlineArray2_crnd_static_huffman_data_model m_endpoint_delta_dm;
 
 	[FieldOffset(264)]
-	public InlineArray2_crnd_static_huffman_data_model field_8;
+	public InlineArray2_crnd_static_huffman_data_model m_selector_delta_dm;
 
 	[FieldOffset(344)]
-	public crnd_vector_maaktjc field_9;
+	public crnd_vector_maaktjc m_color_endpoints;
 
 	[FieldOffset(368)]
-	public crnd_vector_maaktjc field_10;
+	public crnd_vector_maaktjc m_color_selectors;
 
 	[FieldOffset(392)]
-	public crnd_vector_rf9iywd field_11;
+	public crnd_vector_rf9iywd m_alpha_endpoints;
 
 	[FieldOffset(416)]
-	public crnd_vector_rf9iywd field_12;
+	public crnd_vector_rf9iywd m_alpha_selectors;
 }

@@ -11,9 +11,9 @@ internal static partial class crn_palette_Constructor
 	{
 		unchecked
 		{
-			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_palette*)@this)->field_0);
-			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_palette*)@this)->field_1);
-			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_palette*)@this)->field_2);
+			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_palette*)@this)->m_ofs);
+			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_palette*)@this)->m_size);
+			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_palette*)@this)->m_num);
 			return @this;
 		}
 	}

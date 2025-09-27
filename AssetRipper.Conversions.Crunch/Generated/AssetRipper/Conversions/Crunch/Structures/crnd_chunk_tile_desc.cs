@@ -9,17 +9,17 @@ namespace AssetRipper.Conversions.Crunch.Structures;
 public partial struct crnd_chunk_tile_desc
 {
 	[FieldOffset(0)]
-	public int field_0;
+	public int m_x_ofs;
 
 	[FieldOffset(4)]
-	public int field_1;
+	public int m_y_ofs;
 
 	[FieldOffset(8)]
-	public int field_2;
+	public int m_width;
 
 	[FieldOffset(12)]
-	public int field_3;
+	public int m_height;
 
 	[FieldOffset(16)]
-	public int field_4;
+	public int m_layout_index;
 }

@@ -12,16 +12,16 @@ internal static partial class crn_unpacker_Constructor
 	{
 		unchecked
 		{
-			((crnd_crn_unpacker*)@this)->field_0 = 519686845;
-			((crnd_crn_unpacker*)@this)->field_1 = null;
-			((crnd_crn_unpacker*)@this)->field_2 = 0;
-			crn_header_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->field_3);
-			((crnd_crn_unpacker*)@this)->field_4 = null;
-			symbol_codec_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->field_5);
-			crnd_static_huffman_data_model* field_ = &((crnd_crn_unpacker*)@this)->field_6;
-			static_huffman_data_model_Constructor_tl33idc.Invoke(field_);
-			InlineArray2_crnd_static_huffman_data_model* field_2 = &((crnd_crn_unpacker*)@this)->field_7;
-			crnd_static_huffman_data_model* ptr = (crnd_static_huffman_data_model*)field_2;
+			((crnd_crn_unpacker*)@this)->m_magic = 519686845;
+			((crnd_crn_unpacker*)@this)->m_pData = null;
+			((crnd_crn_unpacker*)@this)->m_data_size = 0;
+			crn_header_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->m_tmp_header);
+			((crnd_crn_unpacker*)@this)->m_pHeader = null;
+			symbol_codec_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->m_codec);
+			crnd_static_huffman_data_model* chunk_encoding_dm = &((crnd_crn_unpacker*)@this)->m_chunk_encoding_dm;
+			static_huffman_data_model_Constructor_tl33idc.Invoke(chunk_encoding_dm);
+			InlineArray2_crnd_static_huffman_data_model* endpoint_delta_dm = &((crnd_crn_unpacker*)@this)->m_endpoint_delta_dm;
+			crnd_static_huffman_data_model* ptr = (crnd_static_huffman_data_model*)endpoint_delta_dm;
 			crnd_static_huffman_data_model* ptr2 = ptr + 2L;
 			crnd_static_huffman_data_model* intPtr = ptr;
 			while (true)
@@ -36,8 +36,8 @@ internal static partial class crn_unpacker_Constructor
 						intPtr = ptr4;
 						continue;
 					}
-					InlineArray2_crnd_static_huffman_data_model* field_3 = &((crnd_crn_unpacker*)@this)->field_8;
-					crnd_static_huffman_data_model* ptr5 = (crnd_static_huffman_data_model*)field_3;
+					InlineArray2_crnd_static_huffman_data_model* selector_delta_dm = &((crnd_crn_unpacker*)@this)->m_selector_delta_dm;
+					crnd_static_huffman_data_model* ptr5 = (crnd_static_huffman_data_model*)selector_delta_dm;
 					crnd_static_huffman_data_model* ptr6 = ptr5 + 2L;
 					crnd_static_huffman_data_model* intPtr2 = ptr5;
 					while (true)
@@ -52,26 +52,26 @@ internal static partial class crn_unpacker_Constructor
 								intPtr2 = ptr8;
 								continue;
 							}
-							crnd_vector_maaktjc* field_4 = &((crnd_crn_unpacker*)@this)->field_9;
-							vector_unsigned_int_Constructor.Invoke(field_4);
+							crnd_vector_maaktjc* color_endpoints = &((crnd_crn_unpacker*)@this)->m_color_endpoints;
+							vector_unsigned_int_Constructor.Invoke(color_endpoints);
 							if (ExceptionInfo.Current == null)
 							{
-								crnd_vector_maaktjc* field_5 = &((crnd_crn_unpacker*)@this)->field_10;
-								vector_unsigned_int_Constructor.Invoke(field_5);
+								crnd_vector_maaktjc* color_selectors = &((crnd_crn_unpacker*)@this)->m_color_selectors;
+								vector_unsigned_int_Constructor.Invoke(color_selectors);
 								if (ExceptionInfo.Current == null)
 								{
-									crnd_vector_rf9iywd* field_6 = &((crnd_crn_unpacker*)@this)->field_11;
-									vector_unsigned_short_Constructor.Invoke(field_6);
+									crnd_vector_rf9iywd* alpha_endpoints = &((crnd_crn_unpacker*)@this)->m_alpha_endpoints;
+									vector_unsigned_short_Constructor.Invoke(alpha_endpoints);
 									if (ExceptionInfo.Current == null)
 									{
-										vector_unsigned_short_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->field_12);
+										vector_unsigned_short_Constructor.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors);
 										if (ExceptionInfo.Current == null)
 										{
 											return @this;
 										}
 										ExceptionInfo current = ExceptionInfo.Current;
 										ExceptionInfo.Current = null;
-										vector_unsigned_short_Destructor.Invoke(field_6);
+										vector_unsigned_short_Destructor.Invoke(alpha_endpoints);
 										if (ExceptionInfo.Current != null)
 										{
 											return null;
@@ -80,7 +80,7 @@ internal static partial class crn_unpacker_Constructor
 									}
 									ExceptionInfo current2 = ExceptionInfo.Current;
 									ExceptionInfo.Current = null;
-									vector_unsigned_int_Destructor.Invoke(field_5);
+									vector_unsigned_int_Destructor.Invoke(color_selectors);
 									if (ExceptionInfo.Current != null)
 									{
 										return null;
@@ -89,7 +89,7 @@ internal static partial class crn_unpacker_Constructor
 								}
 								ExceptionInfo current3 = ExceptionInfo.Current;
 								ExceptionInfo.Current = null;
-								vector_unsigned_int_Destructor.Invoke(field_4);
+								vector_unsigned_int_Destructor.Invoke(color_endpoints);
 								if (ExceptionInfo.Current != null)
 								{
 									return null;
@@ -98,7 +98,7 @@ internal static partial class crn_unpacker_Constructor
 							}
 							ExceptionInfo current4 = ExceptionInfo.Current;
 							ExceptionInfo.Current = null;
-							crnd_static_huffman_data_model* ptr9 = (crnd_static_huffman_data_model*)field_3;
+							crnd_static_huffman_data_model* ptr9 = (crnd_static_huffman_data_model*)selector_delta_dm;
 							nint num = (nint)(ptr9 + 2L);
 							while (true)
 							{
@@ -142,7 +142,7 @@ internal static partial class crn_unpacker_Constructor
 					}
 					ExceptionInfo current6 = ExceptionInfo.Current;
 					ExceptionInfo.Current = null;
-					crnd_static_huffman_data_model* ptr12 = (crnd_static_huffman_data_model*)field_2;
+					crnd_static_huffman_data_model* ptr12 = (crnd_static_huffman_data_model*)endpoint_delta_dm;
 					nint num3 = (nint)(ptr12 + 2L);
 					while (true)
 					{
@@ -186,7 +186,7 @@ internal static partial class crn_unpacker_Constructor
 			}
 			ExceptionInfo current8 = ExceptionInfo.Current;
 			ExceptionInfo.Current = null;
-			static_huffman_data_model_Destructor.Invoke(field_);
+			static_huffman_data_model_Destructor.Invoke(chunk_encoding_dm);
 			if (ExceptionInfo.Current != null)
 			{
 				return null;

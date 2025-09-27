@@ -30,31 +30,31 @@ internal static partial class g_crnd_chunk_encoding_tiles
 			default(crnd_crnd_encoding_tile_indices),
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 0, 1, 1 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 0, 1, 1 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 0, 1 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 0, 1 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 0, 1, 2 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 0, 1, 2 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 1, 2, 0, 0 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 1, 2, 0, 0 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 0, 2 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 0, 2 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 1, 0, 2, 0 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 1, 0, 2, 0 })
 			},
 			new crnd_crnd_encoding_tile_indices
 			{
-				field_0 = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 2, 3 })
+				m_tiles = InlineArrayHelper.Create<InlineArray4_SByte, byte>(new byte[4] { 0, 1, 2, 3 })
 			}
 		};
 	}

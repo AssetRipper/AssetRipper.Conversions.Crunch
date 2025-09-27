@@ -19,11 +19,11 @@ internal static partial class unpack_dxt5a
 		int num3 = 1;
 		unchecked
 		{
-			int n = size_lxodu4b.Invoke(&((crnd_crn_unpacker*)@this)->field_11);
-			int n2 = crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_17.field_2);
+			int n = size_lxodu4b.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints);
+			int n2 = crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->m_pHeader)->m_alpha_selectors.m_num);
 			num = 0;
 			num2 = 0;
-			int num4 = crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_8);
+			int num4 = crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->m_pHeader)->m_faces);
 			for (int i = 0; (uint)i < (uint)num4; i++)
 			{
 				void* ptr = ((void**)pDst)[(uint)i];
@@ -47,19 +47,19 @@ internal static partial class unpack_dxt5a
 					{
 						if (num3 == 1)
 						{
-							num3 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_6) | 0x200;
+							num3 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_chunk_encoding_dm) | 0x200;
 						}
 						int num9 = num3 & 7;
 						num3 >>>= 3;
 						int num10 = (byte)((sbyte*)g_crnd_chunk_encoding_num_tiles.__pointer)[(uint)num9];
-						void* field_ = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num9].field_0;
+						void* tiles = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num9].m_tiles;
 						sbyte b2 = (((blocks_x & 1) != 0 && k == checked(chunks_x - 1)) ? ((sbyte)1) : ((sbyte)0));
 						for (int l = 0; (uint)l < (uint)num10; l++)
 						{
-							int num11 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_7) + sizeof(crnd_static_huffman_data_model));
+							int num11 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, (byte*)(&((crnd_crn_unpacker*)@this)->m_endpoint_delta_dm) + sizeof(crnd_static_huffman_data_model));
 							num += num11;
 							limit.Invoke(&num, n);
-							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_11, num));
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints, num));
 						}
 						void* ptr3 = ptr2;
 						for (int m = 0; (uint)m < 2u; m++)
@@ -67,13 +67,13 @@ internal static partial class unpack_dxt5a
 							int num12 = 0;
 							while ((uint)num12 < 2u)
 							{
-								int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, (byte*)(&((crnd_crn_unpacker*)@this)->field_8) + sizeof(crnd_static_huffman_data_model));
+								int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, (byte*)(&((crnd_crn_unpacker*)@this)->m_selector_delta_dm) + sizeof(crnd_static_huffman_data_model));
 								num2 += num13;
 								limit.Invoke(&num2, n2);
 								if ((num12 == 0 || (b2 & 1) != 1) && (m == 0 || (b & 1) != 1))
 								{
-									int num14 = (byte)((sbyte*)field_)[(uint)(num12 + m * 2)];
-									void* ptr4 = vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_12, num2 * 3);
+									int num14 = (byte)((sbyte*)tiles)[(uint)(num12 + m * 2)];
+									void* ptr4 = vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors, num2 * 3);
 									*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)num14 * (nint)4)) | ((ushort)(*(short*)ptr4) << 16);
 									((int*)ptr3)[1] = (ushort)((short*)ptr4)[1] | ((ushort)((short*)ptr4)[2] << 16);
 								}

@@ -28,75 +28,75 @@ internal static partial class g_chunk_tile_layouts
 		{
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 0,
-				field_2 = 8,
-				field_3 = 8,
-				field_4 = 0
+				m_x_ofs = 0,
+				m_y_ofs = 0,
+				m_width = 8,
+				m_height = 8,
+				m_layout_index = 0
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 0,
-				field_2 = 8,
-				field_3 = 4,
-				field_4 = 1
+				m_x_ofs = 0,
+				m_y_ofs = 0,
+				m_width = 8,
+				m_height = 4,
+				m_layout_index = 1
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 4,
-				field_2 = 8,
-				field_3 = 4,
-				field_4 = 2
+				m_x_ofs = 0,
+				m_y_ofs = 4,
+				m_width = 8,
+				m_height = 4,
+				m_layout_index = 2
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 0,
-				field_2 = 4,
-				field_3 = 8,
-				field_4 = 3
+				m_x_ofs = 0,
+				m_y_ofs = 0,
+				m_width = 4,
+				m_height = 8,
+				m_layout_index = 3
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 4,
-				field_1 = 0,
-				field_2 = 4,
-				field_3 = 8,
-				field_4 = 4
+				m_x_ofs = 4,
+				m_y_ofs = 0,
+				m_width = 4,
+				m_height = 8,
+				m_layout_index = 4
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 0,
-				field_2 = 4,
-				field_3 = 4,
-				field_4 = 5
+				m_x_ofs = 0,
+				m_y_ofs = 0,
+				m_width = 4,
+				m_height = 4,
+				m_layout_index = 5
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 4,
-				field_1 = 0,
-				field_2 = 4,
-				field_3 = 4,
-				field_4 = 6
+				m_x_ofs = 4,
+				m_y_ofs = 0,
+				m_width = 4,
+				m_height = 4,
+				m_layout_index = 6
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 0,
-				field_1 = 4,
-				field_2 = 4,
-				field_3 = 4,
-				field_4 = 7
+				m_x_ofs = 0,
+				m_y_ofs = 4,
+				m_width = 4,
+				m_height = 4,
+				m_layout_index = 7
 			},
 			new crnd_chunk_tile_desc
 			{
-				field_0 = 4,
-				field_1 = 4,
-				field_2 = 4,
-				field_3 = 4,
-				field_4 = 8
+				m_x_ofs = 4,
+				m_y_ofs = 4,
+				m_width = 4,
+				m_height = 4,
+				m_layout_index = 8
 			}
 		};
 	}

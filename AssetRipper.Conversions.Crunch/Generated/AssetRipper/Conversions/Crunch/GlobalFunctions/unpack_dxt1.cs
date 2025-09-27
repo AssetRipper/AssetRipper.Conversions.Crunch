@@ -19,11 +19,11 @@ internal static partial class unpack_dxt1
 		int num3 = 1;
 		unchecked
 		{
-			int n = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_9);
-			int n2 = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->field_10);
+			int n = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->m_color_endpoints);
+			int n2 = size_7uifdkc.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors);
 			num = 0;
 			num2 = 0;
-			int num4 = crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->field_4)->field_8);
+			int num4 = crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->m_pHeader)->m_faces);
 			int num5 = row_pitch_in_bytes >>> 2;
 			for (int i = 0; (uint)i < (uint)num4; i++)
 			{
@@ -48,43 +48,43 @@ internal static partial class unpack_dxt1
 					{
 						if (num3 == 1)
 						{
-							num3 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_6) | 0x200;
+							num3 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_chunk_encoding_dm) | 0x200;
 						}
 						int num10 = num3 & 7;
 						num3 >>>= 3;
 						int num11 = (byte)((sbyte*)g_crnd_chunk_encoding_num_tiles.__pointer)[(uint)num10];
 						for (int l = 0; (uint)l < (uint)num11; l++)
 						{
-							int num12 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_7);
+							int num12 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_endpoint_delta_dm);
 							num += num12;
 							limit.Invoke(&num, n);
-							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_9, num);
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_endpoints, num);
 						}
-						void* field_ = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num10].field_0;
+						void* tiles = &((crnd_crnd_encoding_tile_indices*)g_crnd_chunk_encoding_tiles.__pointer)[(uint)num10].m_tiles;
 						sbyte b2 = (((blocks_x & 1) != 0 && k == checked(chunks_x - 1)) ? ((sbyte)1) : ((sbyte)0));
 						void* ptr3 = ptr2;
 						if ((b & 1) != 1 && (b2 & 1) != 1)
 						{
-							*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)(*(sbyte*)field_) * (nint)4));
-							int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+							*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)(*(sbyte*)tiles) * (nint)4));
+							int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_selector_delta_dm);
 							num2 += num13;
 							limit.Invoke(&num2, n2);
-							((int*)ptr3)[1] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
-							((int*)ptr3)[2] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)field_)[1] * (nint)4));
-							int num14 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+							((int*)ptr3)[1] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num2);
+							((int*)ptr3)[2] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)tiles)[1] * (nint)4));
+							int num14 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_selector_delta_dm);
 							num2 += num14;
 							limit.Invoke(&num2, n2);
-							((int*)ptr3)[3] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
-							((int*)ptr3)[(uint)(0 + num5)] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)field_)[2] * (nint)4));
-							int num15 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+							((int*)ptr3)[3] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num2);
+							((int*)ptr3)[(uint)(0 + num5)] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)tiles)[2] * (nint)4));
+							int num15 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_selector_delta_dm);
 							num2 += num15;
 							limit.Invoke(&num2, n2);
-							((int*)ptr3)[(uint)(1 + num5)] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
-							((int*)ptr3)[(uint)(2 + num5)] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)field_)[3] * (nint)4));
-							int num16 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+							((int*)ptr3)[(uint)(1 + num5)] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num2);
+							((int*)ptr3)[(uint)(2 + num5)] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)tiles)[3] * (nint)4));
+							int num16 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_selector_delta_dm);
 							num2 += num16;
 							limit.Invoke(&num2, n2);
-							((int*)ptr3)[(uint)(3 + num5)] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
+							((int*)ptr3)[(uint)(3 + num5)] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num2);
 						}
 						else
 						{
@@ -94,13 +94,13 @@ internal static partial class unpack_dxt1
 								int num17 = 0;
 								while ((uint)num17 < 2u)
 								{
-									int num18 = decode.Invoke(&((crnd_crn_unpacker*)@this)->field_5, &((crnd_crn_unpacker*)@this)->field_8);
+									int num18 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &((crnd_crn_unpacker*)@this)->m_selector_delta_dm);
 									num2 += num18;
 									limit.Invoke(&num2, n2);
 									if ((num17 == 0 || (b2 & 1) != 1) && (m == 0 || (b & 1) != 1))
 									{
-										*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)field_)[(uint)(num17 + m * 2)] * (nint)4));
-										((int*)ptr3)[1] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->field_10, num2);
+										*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(byte)((sbyte*)tiles)[(uint)(num17 + m * 2)] * (nint)4));
+										((int*)ptr3)[1] = *(int*)vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num2);
 									}
 									num17++;
 									ptr3 = (byte*)ptr3 + 8;

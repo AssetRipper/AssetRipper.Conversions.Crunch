@@ -13,13 +13,13 @@ internal static partial class init_lqqdgrc
 	{
 		unchecked
 		{
-			((crnd_crn_unpacker*)@this)->field_4 = crnd_get_header.Invoke(&((crnd_crn_unpacker*)@this)->field_3, pData, data_size);
-			if (((crnd_crn_unpacker*)@this)->field_4 == null)
+			((crnd_crn_unpacker*)@this)->m_pHeader = crnd_get_header.Invoke(&((crnd_crn_unpacker*)@this)->m_tmp_header, pData, data_size);
+			if (((crnd_crn_unpacker*)@this)->m_pHeader == null)
 			{
 				return false;
 			}
-			((crnd_crn_unpacker*)@this)->field_1 = pData;
-			((crnd_crn_unpacker*)@this)->field_2 = data_size;
+			((crnd_crn_unpacker*)@this)->m_pData = pData;
+			((crnd_crn_unpacker*)@this)->m_data_size = data_size;
 			bool flag = init_tables.Invoke(@this);
 			if (ExceptionInfo.Current != null)
 			{
