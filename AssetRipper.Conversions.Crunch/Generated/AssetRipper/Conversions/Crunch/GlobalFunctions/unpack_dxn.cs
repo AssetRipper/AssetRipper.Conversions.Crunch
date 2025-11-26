@@ -22,7 +22,7 @@ internal static partial class unpack_dxn
 		int num5 = 1;
 		unchecked
 		{
-			int n = size_lxodu4b.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints);
+			int n = size_g72hpe.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints);
 			int n2 = crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)((crnd_crn_unpacker*)@this)->m_pHeader)->m_alpha_selectors.m_num);
 			num = 0;
 			num2 = 0;
@@ -64,14 +64,14 @@ internal static partial class unpack_dxn
 							int num13 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, (byte*)(&((crnd_crn_unpacker*)@this)->m_endpoint_delta_dm) + sizeof(crnd_static_huffman_data_model));
 							num += num13;
 							limit.Invoke(&num, n);
-							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints, num));
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)l * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Operator.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints, num));
 						}
 						for (int m = 0; (uint)m < (uint)num12; m++)
 						{
 							int num14 = decode.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, (byte*)(&((crnd_crn_unpacker*)@this)->m_endpoint_delta_dm) + sizeof(crnd_static_huffman_data_model));
 							num3 += num14;
 							limit.Invoke(&num3, n);
-							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int2, (nint)(uint)m * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints, num3));
+							Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int2, (nint)(uint)m * (nint)4)) = (ushort)(*(short*)vector_unsigned_short_Operator.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_endpoints, num3));
 						}
 						void* ptr3 = ptr2;
 						for (int num15 = 0; (uint)num15 < 2u; num15++)
@@ -88,8 +88,8 @@ internal static partial class unpack_dxn
 								if ((num16 == 0 || (b2 & 1) != 1) && (num15 == 0 || (b & 1) != 1))
 								{
 									int num19 = (byte)((sbyte*)tiles)[(uint)(num16 + num15 * 2)];
-									void* ptr4 = vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors, num2 * 3);
-									void* ptr5 = vector_unsigned_short_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors, num4 * 3);
+									void* ptr4 = vector_unsigned_short_Operator.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors, num2 * 3);
+									void* ptr5 = vector_unsigned_short_Operator.Invoke(&((crnd_crn_unpacker*)@this)->m_alpha_selectors, num4 * 3);
 									*(int*)ptr3 = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int, (nint)(uint)num19 * (nint)4)) | ((ushort)(*(short*)ptr4) << 16);
 									((int*)ptr3)[1] = (ushort)((short*)ptr4)[1] | ((ushort)((short*)ptr4)[2] << 16);
 									((int*)ptr3)[2] = Unsafe.As<InlineArray4_Int32, int>(ref Unsafe.AddByteOffset(ref inlineArray4_Int2, (nint)(uint)num19 * (nint)4)) | ((ushort)(*(short*)ptr5) << 16);

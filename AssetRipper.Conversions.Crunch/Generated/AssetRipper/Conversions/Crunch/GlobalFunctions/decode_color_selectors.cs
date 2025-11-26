@@ -38,7 +38,7 @@ internal static partial class decode_color_selectors
 				flag = false;
 				goto IL_04bb;
 			}
-			static_huffman_data_model_Constructor_tl33idc.Invoke(&localsPointer->field_0);
+			static_huffman_data_model_Constructor_c98ih8.Invoke(&localsPointer->field_0);
 			bool flag2 = decode_receive_static_data_model.Invoke(&((crnd_crn_unpacker*)@this)->m_codec, &localsPointer->field_0);
 			if (ExceptionInfo.Current == null)
 			{
@@ -64,10 +64,10 @@ internal static partial class decode_color_selectors
 						}
 					}
 				}
-				zero_object_vtkonjd.Invoke(&localsPointer->field_3);
+				zero_object_ra884z.Invoke(&localsPointer->field_3);
 				if (ExceptionInfo.Current == null)
 				{
-					bool flag3 = resize_a3d3m5b.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num);
+					bool flag3 = resize_dreg6y.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, num);
 					if (ExceptionInfo.Current == null)
 					{
 						if (!flag3)
@@ -76,7 +76,7 @@ internal static partial class decode_color_selectors
 						}
 						else
 						{
-							void* ptr = vector_unsigned_int_Index.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, 0);
+							void* ptr = vector_unsigned_int_Operator.Invoke(&((crnd_crn_unpacker*)@this)->m_color_selectors, 0);
 							if (ExceptionInfo.Current != null)
 							{
 								goto IL_048f;

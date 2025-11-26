@@ -26,7 +26,7 @@ internal static partial class crnd_get_crn_format_bits_per_texel
 		case 8:
 			return 8;
 		default:
-			crnd_assert.Invoke(String_xxn2wad.__pointer, String_yguirrd.__pointer, 2672);
+			crnd_assert.Invoke(String_ak4am9.__pointer, String_vvx8bt.__pointer, 2672);
 			return 0;
 		}
 	}

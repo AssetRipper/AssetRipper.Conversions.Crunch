@@ -11,7 +11,7 @@ internal static partial class crnd_validate_file
 	[return: NativeType("bool")]
 	public unsafe static bool Invoke([NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size, [NativeType("struct crnd::crn_file_info *")] void* pFile_info)
 	{
-		crnd_crn_header crnd_crn_header = default(crnd_crn_header);
+		crnd_crn_header crnd_crn_header2 = default(crnd_crn_header);
 		unchecked
 		{
 			if (pFile_info != null)
@@ -26,8 +26,8 @@ internal static partial class crnd_validate_file
 			{
 				return false;
 			}
-			crn_header_Constructor.Invoke(&crnd_crn_header);
-			void* ptr = crnd_get_header.Invoke(&crnd_crn_header, pData, data_size);
+			crn_header_Constructor.Invoke(&crnd_crn_header2);
+			void* ptr = crnd_get_header.Invoke(&crnd_crn_header2, pData, data_size);
 			if (ptr == null)
 			{
 				return false;
@@ -72,9 +72,9 @@ internal static partial class crnd_validate_file
 					int num = crn_packed_uint_4_ToUInt32.Invoke(&((crnd_crn_header*)ptr)->m_data_size);
 					if ((uint)(i + 1) < (uint)crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)ptr)->m_levels))
 					{
-						num = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)(i + 1) * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
+						num = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)(i + 1) * (nint)sizeof(crnd_crn_packed_uint_25ciii));
 					}
-					int num2 = num - crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)i * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
+					int num2 = num - crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)i * (nint)sizeof(crnd_crn_packed_uint_25ciii));
 					((int*)(&((crnd_crn_file_info*)pFile_info)->m_level_compressed_size))[(uint)i] = num2;
 				}
 				((crnd_crn_file_info*)pFile_info)->m_color_endpoint_palette_entries = crn_packed_uint_2_ToUInt32.Invoke(&((crnd_crn_header*)ptr)->m_color_endpoints.m_num);

@@ -14,150 +14,150 @@ public static partial class Crunch
 	[MangledName("??_C@_0CB@FHBEHCLP@?$CFs?$CI?$CFu?$CJ?3?5Assertion?5failure?3?5?$CC?$CFs?$CC?6@")]
 	[DemangledName("\"%s(%u): Assertion failure: \\\"%s\\\"\\n\"...")]
 	[CleanName("String")]
-	public static InlineArray33_SByte String_tghxvvc
+	public static InlineArray33_SByte String_bkvqbi
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_tghxvvc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_bkvqbi.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_tghxvvc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_bkvqbi.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BM@OFEGABIL@?4?2Original?1inc?1crn_decomp?4h?$AA@")]
 	[DemangledName("\".\\\\Original/inc/crn_decomp.h\"")]
 	[CleanName("String")]
-	public static InlineArray28_SByte String_yguirrd
+	public static InlineArray28_SByte String_vvx8bt
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_yguirrd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_vvx8bt.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_yguirrd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_vvx8bt.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BF@OMHJAMGG@m_size?5?$DM?$DN?5m_capacity?$AA@")]
 	[DemangledName("\"m_size <= m_capacity\"")]
 	[CleanName("String")]
-	public static InlineArray21_SByte String_vmviqdc
+	public static InlineArray21_SByte String_hnvvcq
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_vmviqdc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_hnvvcq.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_vmviqdc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_hnvvcq.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0DA@IKAFKHEK@min_new_capacity?5?$DM?5?$CI0x7FFF0000U?5@")]
 	[DemangledName("\"min_new_capacity < (0x7FFF0000U \"...")]
 	[CleanName("String")]
-	public static InlineArray48_SByte String_hbzy3qd
+	public static InlineArray48_SByte String_jfa7cs
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_hbzy3qd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_jfa7cs.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_hbzy3qd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_jfa7cs.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0CM@KMJOAIO@new_capacity?5?$CG?$CG?5?$CInew_capacity?5?$DO?5@")]
 	[DemangledName("\"new_capacity && (new_capacity > \"...")]
 	[CleanName("String")]
-	public static InlineArray44_SByte String_rugjm7a
+	public static InlineArray44_SByte String_232tuz
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_rugjm7a.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_232tuz.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_rugjm7a.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_232tuz.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0N@MHDHCCDI@num_codes?$FLc?$FN?$AA@")]
 	[DemangledName("\"num_codes[c]\"")]
 	[CleanName("String")]
-	public static InlineArray13_SByte String_prifl7a
+	public static InlineArray13_SByte String_ez6imn
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_prifl7a.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ez6imn.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_prifl7a.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_ez6imn.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BN@PCBNPNGF@sorted_pos?5?$DM?5total_used_syms?$AA@")]
 	[DemangledName("\"sorted_pos < total_used_syms\"")]
 	[CleanName("String")]
-	public static InlineArray29_SByte String_ws3o7xb
+	public static InlineArray29_SByte String_zzatd6
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ws3o7xb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_zzatd6.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ws3o7xb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_zzatd6.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0CC@GJMHEPH@pCodesizes?$FLsym_index?$FN?5?$DN?$DN?5codesiz@")]
 	[DemangledName("\"pCodesizes[sym_index] == codesiz\"...")]
 	[CleanName("String")]
-	public static InlineArray34_SByte String_jvgs2qb
+	public static InlineArray34_SByte String_7anbbg
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_jvgs2qb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_7anbbg.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_jvgs2qb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_7anbbg.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BH@OAHGHCMP@t?5?$DM?5?$CI1U?5?$DM?$DM?5table_bits?$CJ?$AA@")]
 	[DemangledName("\"t < (1U << table_bits)\"")]
 	[CleanName("String")]
-	public static InlineArray23_SByte String_yfa7b2a
+	public static InlineArray23_SByte String_g3mv3q
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_yfa7b2a.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_g3mv3q.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_yfa7b2a.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_g3mv3q.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BL@PODJHNGL@m_lookup?$FLt?$FN?5?$DN?$DN?5cUINT32_MAX?$AA@")]
 	[DemangledName("\"m_lookup[t] == cUINT32_MAX\"")]
 	[CleanName("String")]
-	public static InlineArray27_SByte String_h5wt4bd
+	public static InlineArray27_SByte String_5k7f4m
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_h5wt4bd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_5k7f4m.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_h5wt4bd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_5k7f4m.Value = value;
 		}
 	}
 
@@ -206,90 +206,90 @@ public static partial class Crunch
 	[MangledName("??_C@_0BK@JAPIONGF@crnd_malloc?3?5size?5too?5big?$AA@")]
 	[DemangledName("\"crnd_malloc: size too big\"")]
 	[CleanName("String")]
-	public static InlineArray26_SByte String_ypy7scc
+	public static InlineArray26_SByte String_mqjrcv
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ypy7scc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_mqjrcv.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ypy7scc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_mqjrcv.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BL@IHIHLOKN@crnd_malloc?3?5out?5of?5memory?$AA@")]
 	[DemangledName("\"crnd_malloc: out of memory\"")]
 	[CleanName("String")]
-	public static InlineArray27_SByte String_xewaojb
+	public static InlineArray27_SByte String_eafej9
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_xewaojb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_eafej9.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_xewaojb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_eafej9.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0DG@KEHBKINA@?$CI?$CIuint32?$CJp_new?5?$CG?5?$CICRND_MIN_ALLOC@")]
 	[DemangledName("\"((uint32)p_new & (CRND_MIN_ALLOC\"...")]
 	[CleanName("String")]
-	public static InlineArray54_SByte String_e9ixvnc
+	public static InlineArray54_SByte String_vgj8eq
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_e9ixvnc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_vgj8eq.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_e9ixvnc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_vgj8eq.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BG@KKLOAKHB@crnd_realloc?3?5bad?5ptr?$AA@")]
 	[DemangledName("\"crnd_realloc: bad ptr\"")]
 	[CleanName("String")]
-	public static InlineArray22_SByte String_ifury7b
+	public static InlineArray22_SByte String_f3peyu
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ifury7b.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_f3peyu.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ifury7b.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_f3peyu.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BD@COLBNJCC@crnd_free?3?5bad?5ptr?$AA@")]
 	[DemangledName("\"crnd_free: bad ptr\"")]
 	[CleanName("String")]
-	public static InlineArray19_SByte String_gcwah5d
+	public static InlineArray19_SByte String_6fnra8
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_gcwah5d.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_6fnra8.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_gcwah5d.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_6fnra8.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BE@LPKGDAOF@crnd_msize?3?5bad?5ptr?$AA@")]
 	[DemangledName("\"crnd_msize: bad ptr\"")]
 	[CleanName("String")]
-	public static InlineArray20_SByte String_zijibvd
+	public static InlineArray20_SByte String_x22k5v
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_zijibvd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_x22k5v.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_zijibvd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_x22k5v.Value = value;
 		}
 	}
 
@@ -310,60 +310,60 @@ public static partial class Crunch
 	[MangledName("??_C@_05LAPONLG@false?$AA@")]
 	[DemangledName("\"false\"")]
 	[CleanName("String")]
-	public static InlineArray6_SByte String_xxn2wad
+	public static InlineArray6_SByte String_ak4am9
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_xxn2wad.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ak4am9.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_xxn2wad.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_ak4am9.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0DN@BKINGKOB@crnd_validate_file?$CI?$CGnew_header?0?5@")]
 	[DemangledName("\"crnd_validate_file(&new_header, \"...")]
 	[CleanName("String")]
-	public static InlineArray61_SByte String_2bpyz2d
+	public static InlineArray61_SByte String_82dmwb
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_2bpyz2d.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_82dmwb.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_2bpyz2d.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_82dmwb.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0GA@BGEENDKK@?$CItotal_syms?5?$DO?$DN?51?$CJ?5?$CG?$CG?5?$CItotal_syms@")]
 	[DemangledName("\"(total_syms >= 1) && (total_syms\"...")]
 	[CleanName("String")]
-	public static InlineArray96_SByte String_ejppfib
+	public static InlineArray96_SByte String_tty2pe
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ejppfib.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_tty2pe.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ejppfib.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_tty2pe.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0EG@EDDPBAMB@?$CItotal_syms?5?$DO?$DN?51?$CJ?5?$CG?$CG?5?$CItotal_syms@")]
 	[DemangledName("\"(total_syms >= 1) && (total_syms\"...")]
 	[CleanName("String")]
-	public static InlineArray70_SByte String_3h2uiyd
+	public static InlineArray70_SByte String_katrg3
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_3h2uiyd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_katrg3.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_3h2uiyd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_katrg3.Value = value;
 		}
 	}
 
@@ -384,75 +384,75 @@ public static partial class Crunch
 	[MangledName("??_C@_01GBGANLPD@0?$AA@")]
 	[DemangledName("\"0\"")]
 	[CleanName("String")]
-	public static InlineArray2_SByte String_xzkwrkb
+	public static InlineArray2_SByte String_m5q5qr
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_xzkwrkb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_m5q5qr.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_xzkwrkb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_m5q5qr.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BA@BONAGPOI@num_bits?5?$DM?$DN?532U?$AA@")]
 	[DemangledName("\"num_bits <= 32U\"")]
 	[CleanName("String")]
-	public static InlineArray16_SByte String_bhrpdhd
+	public static InlineArray16_SByte String_ya7rpa
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_bhrpdhd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ya7rpa.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_bhrpdhd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_ya7rpa.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BL@ILGLACHG@m_bit_count?5?$DM?$DN?5cBitBufSize?$AA@")]
 	[DemangledName("\"m_bit_count <= cBitBufSize\"")]
 	[CleanName("String")]
-	public static InlineArray27_SByte String_kf9n5db
+	public static InlineArray27_SByte String_igi64g
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_kf9n5db.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_igi64g.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_kf9n5db.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_igi64g.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BB@FLHHDBIK@t?5?$CB?$DN?5cUINT32_MAX?$AA@")]
 	[DemangledName("\"t != cUINT32_MAX\"")]
 	[CleanName("String")]
-	public static InlineArray17_SByte String_fwybtzb
+	public static InlineArray17_SByte String_hdsqwd
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_fwybtzb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_hdsqwd.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_fwybtzb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_hdsqwd.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BP@PAJOIOJH@model?4m_code_sizes?$FLsym?$FN?5?$DN?$DN?5len?$AA@")]
 	[DemangledName("\"model.m_code_sizes[sym] == len\"")]
 	[CleanName("String")]
-	public static InlineArray31_SByte String_e4i4x9a
+	public static InlineArray31_SByte String_8pbqr2
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_e4i4x9a.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_8pbqr2.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_e4i4x9a.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_8pbqr2.Value = value;
 		}
 	}
 
@@ -571,90 +571,90 @@ public static partial class Crunch
 	[MangledName("??_C@_09GBHJNKCG@index?5?$DM?52?$AA@")]
 	[DemangledName("\"index < 2\"")]
 	[CleanName("String")]
-	public static InlineArray10_SByte String_4tt2t2d
+	public static InlineArray10_SByte String_6s4rgc
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_4tt2t2d.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_6s4rgc.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_4tt2t2d.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_6s4rgc.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0CD@GFDHKLGC@?$CIlo?5?$DM?$DN?50xFFFFU?$CJ?5?$CG?$CG?5?$CIhi?5?$DM?$DN?50xFFFF@")]
 	[DemangledName("\"(lo <= 0xFFFFU) && (hi <= 0xFFFF\"...")]
 	[CleanName("String")]
-	public static InlineArray35_SByte String_myspu3d
+	public static InlineArray35_SByte String_fp3rum
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_myspu3d.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_fp3rum.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_myspu3d.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_fp3rum.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0CL@INIAFNGL@?$CIx?5?$DM?5cDXTBlockSize?$CJ?5?$CG?$CG?5?$CIy?5?$DM?5cDXT@")]
 	[DemangledName("\"(x < cDXTBlockSize) && (y < cDXT\"...")]
 	[CleanName("String")]
-	public static InlineArray43_SByte String_cahur4b
+	public static InlineArray43_SByte String_jsxkht
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_cahur4b.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_jsxkht.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_cahur4b.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_jsxkht.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0O@DJHKEBCN@value?5?$DM?$DN?50xFF?$AA@")]
 	[DemangledName("\"value <= 0xFF\"")]
 	[CleanName("String")]
-	public static InlineArray14_SByte String_932ftxa
+	public static InlineArray14_SByte String_exh4qe
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_932ftxa.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_exh4qe.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_932ftxa.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_exh4qe.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0N@OGENALEG@value?5?$DM?$DN?50xF?$AA@")]
 	[DemangledName("\"value <= 0xF\"")]
 	[CleanName("String")]
-	public static InlineArray13_SByte String_azii4xc
+	public static InlineArray13_SByte String_sg8vgw
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_azii4xc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_sg8vgw.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_azii4xc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_sg8vgw.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BN@MHDEPPEE@?$CIlo?5?$DM?$DN?50xFF?$CJ?5?$CG?$CG?5?$CIhi?5?$DM?$DN?50xFF?$CJ?$AA@")]
 	[DemangledName("\"(lo <= 0xFF) && (hi <= 0xFF)\"")]
 	[CleanName("String")]
-	public static InlineArray29_SByte String_7bcfjea
+	public static InlineArray29_SByte String_57w95k
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_7bcfjea.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_57w95k.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_7bcfjea.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_57w95k.Value = value;
 		}
 	}
 
@@ -675,45 +675,45 @@ public static partial class Crunch
 	[MangledName("??_C@_0CM@KDBBDIAC@?$CIlen?5?$DO?$DN?51?$CJ?5?$CG?$CG?5?$CIlen?5?$DM?$DN?5cMaxExpect@")]
 	[DemangledName("\"(len >= 1) && (len <= cMaxExpect\"...")]
 	[CleanName("String")]
-	public static InlineArray44_SByte String_ajzw4md
+	public static InlineArray44_SByte String_s4qupc
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ajzw4md.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_s4qupc.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ajzw4md.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_s4qupc.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0L@GPMGHDBL@i?5?$DM?5m_size?$AA@")]
 	[DemangledName("\"i < m_size\"")]
 	[CleanName("String")]
-	public static InlineArray11_SByte String_ededlgd
+	public static InlineArray11_SByte String_jh2584
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ededlgd.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_jh2584.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ededlgd.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_jh2584.Value = value;
 		}
 	}
 
 	[MangledName("??_C@_0BP@GCONNLPO@next_level_ofs?5?$DO?5cur_level_ofs?$AA@")]
 	[DemangledName("\"next_level_ofs > cur_level_ofs\"")]
 	[CleanName("String")]
-	public static InlineArray31_SByte String_huvyfmc
+	public static InlineArray31_SByte String_zazx7v
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_huvyfmc.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_zazx7v.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_huvyfmc.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_zazx7v.Value = value;
 		}
 	}
 
@@ -748,15 +748,15 @@ public static partial class Crunch
 	[MangledName("??_C@_0BL@MIJFKMEH@num?5?$CG?$CG?5?$CInum?5?$DN?$DN?5?$HOnum_check?$CJ?$AA@")]
 	[DemangledName("\"num && (num == ~num_check)\"")]
 	[CleanName("String")]
-	public static InlineArray27_SByte String_ec57feb
+	public static InlineArray27_SByte String_bsbwfp
 	{
 		get
 		{
-			return AssetRipper.Conversions.Crunch.GlobalVariables.String_ec57feb.Value;
+			return AssetRipper.Conversions.Crunch.GlobalVariables.String_bsbwfp.Value;
 		}
 		set
 		{
-			AssetRipper.Conversions.Crunch.GlobalVariables.String_ec57feb.Value = value;
+			AssetRipper.Conversions.Crunch.GlobalVariables.String_bsbwfp.Value = value;
 		}
 	}
 
@@ -806,9 +806,9 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::crnd_trace(char const *, char *)")]
 	[CleanName("crnd_trace")]
 	[return: NativeType("void")]
-	public unsafe static void crnd_trace_5g37v2a([NativeType("char const *")] void* pFmt, [NativeType("char *")] void* args)
+	public unsafe static void crnd_trace_kv3t38([NativeType("char const *")] void* pFmt, [NativeType("char *")] void* args)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_trace_5g37v2a.Invoke(pFmt, args);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_trace_kv3t38.Invoke(pFmt, args);
 	}
 
 	public unsafe static int vsprintf([MangledName("_Buffer")] void* Buffer, [MangledName("_Format")] void* Format, [MangledName("_ArgList")] void* ArgList)
@@ -819,9 +819,9 @@ public static partial class Crunch
 	[MangledName("?crnd_trace@crnd@@YAXPEBDZZ")]
 	[DemangledName("void __cdecl crnd::crnd_trace(char const *, ...)")]
 	[CleanName("crnd_trace")]
-	public unsafe static void crnd_trace_53itvya(void* pFmt, ReadOnlySpan<nint> args)
+	public unsafe static void crnd_trace_7532hv(void* pFmt, ReadOnlySpan<nint> args)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_trace_53itvya.Invoke(pFmt, args);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_trace_7532hv.Invoke(pFmt, args);
 	}
 
 	[MangledName("llvm.va_start.p0")]
@@ -850,12 +850,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::elemental_vector::increase_capacity(unsigned int, bool, unsigned int, void (__cdecl *)(void *, void *, unsigned int))")]
 	[CleanName("increase_capacity")]
 	[return: NativeType("bool")]
-	public unsafe static bool increase_capacity_nb7lc5b(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint, [NativeType("unsigned int")] int element_size, [NativeType("void (__cdecl *)(void *, void *, unsigned int)")] void* pMover)
+	public unsafe static bool increase_capacity_6cy7im(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint, [NativeType("unsigned int")] int element_size, [NativeType("void (__cdecl *)(void *, void *, unsigned int)")] void* pMover)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_nb7lc5b.Invoke(@this, min_new_capacity, grow_hint, element_size, pMover);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_6cy7im.Invoke(@this, min_new_capacity, grow_hint, element_size, pMover);
 		}
 		catch
 		{
@@ -949,12 +949,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::prefix_coding::decoder_tables::init(unsigned int, unsigned char const *, unsigned int)")]
 	[CleanName("init")]
 	[return: NativeType("bool")]
-	public unsafe static bool init_igqra9d(void* @this, [NativeType("unsigned int")] int num_syms, [NativeType("unsigned char const *")] void* pCodesizes, [NativeType("unsigned int")] int table_bits)
+	public unsafe static bool init_kvw3hm(void* @this, [NativeType("unsigned int")] int num_syms, [NativeType("unsigned char const *")] void* pCodesizes, [NativeType("unsigned int")] int table_bits)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_igqra9d.Invoke(@this, num_syms, pCodesizes, table_bits);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_kvw3hm.Invoke(@this, num_syms, pCodesizes, table_bits);
 		}
 		catch
 		{
@@ -969,9 +969,9 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::utils::zero_object<unsigned int[17]>(unsigned int (&)[17])")]
 	[CleanName("zero_object")]
 	[return: NativeType("void")]
-	public unsafe static void zero_object_5n5m5id([NativeType("unsigned int (&)[17]")] void* obj)
+	public unsafe static void zero_object_gms5dk([NativeType("unsigned int (&)[17]")] void* obj)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.zero_object_5n5m5id.Invoke(obj);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.zero_object_gms5dk.Invoke(obj);
 	}
 
 	[MangledName("??$minimum@I@math@crnd@@YAIII@Z")]
@@ -994,11 +994,11 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::crnd_delete_array<unsigned short>(unsigned short *)")]
 	[CleanName("crnd_delete_array")]
 	[return: NativeType("void")]
-	public unsafe static void crnd_delete_array_rytswyc([NativeType("unsigned short *")] void* p)
+	public unsafe static void crnd_delete_array_yym6az([NativeType("unsigned short *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_array_rytswyc.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_array_yym6az.Invoke(p);
 		}
 		catch
 		{
@@ -1012,12 +1012,12 @@ public static partial class Crunch
 	[DemangledName("unsigned short * __cdecl crnd::crnd_new_array<unsigned short>(unsigned int)")]
 	[CleanName("crnd_new_array")]
 	[return: NativeType("unsigned short *")]
-	public unsafe static void* crnd_new_array_ovofsdb([NativeType("unsigned int")] int num)
+	public unsafe static void* crnd_new_array_ped3ba([NativeType("unsigned int")] int num)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_array_ovofsdb.Invoke(num);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_array_ped3ba.Invoke(num);
 		}
 		catch
 		{
@@ -1032,11 +1032,11 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::crnd_delete_array<unsigned int>(unsigned int *)")]
 	[CleanName("crnd_delete_array")]
 	[return: NativeType("void")]
-	public unsafe static void crnd_delete_array_nughn5d([NativeType("unsigned int *")] void* p)
+	public unsafe static void crnd_delete_array_wgct9q([NativeType("unsigned int *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_array_nughn5d.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_array_wgct9q.Invoke(p);
 		}
 		catch
 		{
@@ -1050,12 +1050,12 @@ public static partial class Crunch
 	[DemangledName("unsigned int * __cdecl crnd::crnd_new_array<unsigned int>(unsigned int)")]
 	[CleanName("crnd_new_array")]
 	[return: NativeType("unsigned int *")]
-	public unsafe static void* crnd_new_array_linsntd([NativeType("unsigned int")] int num)
+	public unsafe static void* crnd_new_array_zqdtgg([NativeType("unsigned int")] int num)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_array_linsntd.Invoke(num);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_array_zqdtgg.Invoke(num);
 		}
 		catch
 		{
@@ -1285,9 +1285,9 @@ public static partial class Crunch
 	[MangledName("??0static_huffman_data_model@crnd@@QEAA@XZ")]
 	[DemangledName("public: __cdecl crnd::static_huffman_data_model::static_huffman_data_model(void)")]
 	[CleanName("static_huffman_data_model_Constructor")]
-	public unsafe static void* static_huffman_data_model_Constructor_tl33idc(void* @this)
+	public unsafe static void* static_huffman_data_model_Constructor_c98ih8(void* @this)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.static_huffman_data_model_Constructor_tl33idc.Invoke(@this);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.static_huffman_data_model_Constructor_c98ih8.Invoke(@this);
 	}
 
 	[MangledName("??0?$vector@E@crnd@@QEAA@XZ")]
@@ -1300,12 +1300,12 @@ public static partial class Crunch
 	[MangledName("??0static_huffman_data_model@crnd@@QEAA@AEBV01@@Z")]
 	[DemangledName("public: __cdecl crnd::static_huffman_data_model::static_huffman_data_model(class crnd::static_huffman_data_model const &)")]
 	[CleanName("static_huffman_data_model_Constructor")]
-	public unsafe static void* static_huffman_data_model_Constructor_kjbfssa(void* @this, [NativeType("class crnd::static_huffman_data_model const &")] void* other)
+	public unsafe static void* static_huffman_data_model_Constructor_xjvnfi(void* @this, [NativeType("class crnd::static_huffman_data_model const &")] void* other)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.static_huffman_data_model_Constructor_kjbfssa.Invoke(@this, other);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.static_huffman_data_model_Constructor_xjvnfi.Invoke(@this, other);
 		}
 		catch
 		{
@@ -1378,11 +1378,11 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::crnd_delete<class crnd::prefix_coding::decoder_tables>(class crnd::prefix_coding::decoder_tables *)")]
 	[CleanName("crnd_delete")]
 	[return: NativeType("void")]
-	public unsafe static void crnd_delete_rldcmnc([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
+	public unsafe static void crnd_delete_bvucig([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_rldcmnc.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_bvucig.Invoke(p);
 		}
 		catch
 		{
@@ -1430,11 +1430,11 @@ public static partial class Crunch
 	[DemangledName("public: void __cdecl crnd::static_huffman_data_model::clear(void)")]
 	[CleanName("clear")]
 	[return: NativeType("void")]
-	public unsafe static void clear_egw7ktb(void* @this)
+	public unsafe static void clear_9udjtr(void* @this)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_egw7ktb.Invoke(@this);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_9udjtr.Invoke(@this);
 		}
 		catch
 		{
@@ -1467,12 +1467,12 @@ public static partial class Crunch
 	[DemangledName("class crnd::prefix_coding::decoder_tables * __cdecl crnd::crnd_new<class crnd::prefix_coding::decoder_tables>(class crnd::prefix_coding::decoder_tables const &)")]
 	[CleanName("crnd_new")]
 	[return: NativeType("class crnd::prefix_coding::decoder_tables *")]
-	public unsafe static void* crnd_new_vzd3zqa([NativeType("class crnd::prefix_coding::decoder_tables const &")] void* init)
+	public unsafe static void* crnd_new_485jak([NativeType("class crnd::prefix_coding::decoder_tables const &")] void* init)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_vzd3zqa.Invoke(init);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_485jak.Invoke(init);
 		}
 		catch
 		{
@@ -1487,11 +1487,11 @@ public static partial class Crunch
 	[DemangledName("public: void __cdecl crnd::vector<unsigned char>::clear(void)")]
 	[CleanName("clear")]
 	[return: NativeType("void")]
-	public unsafe static void clear_q4odfmb(void* @this)
+	public unsafe static void clear_mzsqxg(void* @this)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_q4odfmb.Invoke(@this);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_mzsqxg.Invoke(@this);
 		}
 		catch
 		{
@@ -1505,12 +1505,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::static_huffman_data_model::init(unsigned int, unsigned char const *, unsigned int)")]
 	[CleanName("init")]
 	[return: NativeType("bool")]
-	public unsafe static bool init_nh4ii2d(void* @this, [NativeType("unsigned int")] int total_syms, [NativeType("unsigned char const *")] void* pCode_sizes, [NativeType("unsigned int")] int code_size_limit)
+	public unsafe static bool init_ijnwsj(void* @this, [NativeType("unsigned int")] int total_syms, [NativeType("unsigned char const *")] void* pCode_sizes, [NativeType("unsigned int")] int code_size_limit)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_nh4ii2d.Invoke(@this, total_syms, pCode_sizes, code_size_limit);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_ijnwsj.Invoke(@this, total_syms, pCode_sizes, code_size_limit);
 		}
 		catch
 		{
@@ -1525,12 +1525,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::vector<unsigned char>::resize(unsigned int)")]
 	[CleanName("resize")]
 	[return: NativeType("bool")]
-	public unsafe static bool resize_rzzl5xd(void* @this, [NativeType("unsigned int")] int new_size)
+	public unsafe static bool resize_zpvfc7(void* @this, [NativeType("unsigned int")] int new_size)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_rzzl5xd.Invoke(@this, new_size);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_zpvfc7.Invoke(@this, new_size);
 		}
 		catch
 		{
@@ -1543,23 +1543,23 @@ public static partial class Crunch
 
 	[MangledName("??A?$vector@E@crnd@@QEAAAEAEI@Z")]
 	[DemangledName("public: unsigned char & __cdecl crnd::vector<unsigned char>::operator[](unsigned int)")]
-	[CleanName("vector_unsigned_char_Index")]
+	[CleanName("vector_unsigned_char_Operator")]
 	[return: NativeType("unsigned char &")]
-	public unsafe static void* vector_unsigned_char_Index_o39mi9c(void* @this, [NativeType("unsigned int")] int i)
+	public unsafe static void* vector_unsigned_char_Operator_ggxbum(void* @this, [NativeType("unsigned int")] int i)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_char_Index_o39mi9c.Invoke(@this, i);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_char_Operator_ggxbum.Invoke(@this, i);
 	}
 
 	[MangledName("??$crnd_new@Vdecoder_tables@prefix_coding@crnd@@@crnd@@YAPEAVdecoder_tables@prefix_coding@0@XZ")]
 	[DemangledName("class crnd::prefix_coding::decoder_tables * __cdecl crnd::crnd_new<class crnd::prefix_coding::decoder_tables>(void)")]
 	[CleanName("crnd_new")]
 	[return: NativeType("class crnd::prefix_coding::decoder_tables *")]
-	public unsafe static void* crnd_new_9bg4xgd()
+	public unsafe static void* crnd_new_nwmzm6()
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_9bg4xgd.Invoke();
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_nwmzm6.Invoke();
 		}
 		catch
 		{
@@ -1601,9 +1601,9 @@ public static partial class Crunch
 	[DemangledName("public: unsigned int __cdecl crnd::vector<unsigned char>::size(void) const")]
 	[CleanName("size")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int size_23co4id(void* @this)
+	public unsafe static int size_e35phn(void* @this)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_23co4id.Invoke(@this);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_e35phn.Invoke(@this);
 	}
 
 	[MangledName("?ceil_log2i@math@crnd@@YAII@Z")]
@@ -1690,11 +1690,11 @@ public static partial class Crunch
 
 	[MangledName("??A?$vector@E@crnd@@QEBAAEBEI@Z")]
 	[DemangledName("public: unsigned char const & __cdecl crnd::vector<unsigned char>::operator[](unsigned int) const")]
-	[CleanName("vector_unsigned_char_Index")]
+	[CleanName("vector_unsigned_char_Operator")]
 	[return: NativeType("unsigned char const &")]
-	public unsafe static void* vector_unsigned_char_Index_3lowkad(void* @this, [NativeType("unsigned int")] int i)
+	public unsafe static void* vector_unsigned_char_Operator_btiznu(void* @this, [NativeType("unsigned int")] int i)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_char_Index_3lowkad.Invoke(@this, i);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_char_Operator_btiznu.Invoke(@this, i);
 	}
 
 	[MangledName("?stop_decoding@symbol_codec@crnd@@QEAA_KXZ")]
@@ -1709,18 +1709,18 @@ public static partial class Crunch
 	[DemangledName("public: static unsigned short __cdecl crnd::dxt1_block::pack_color(class crnd::color_quad<unsigned char, int> const &, bool, unsigned int)")]
 	[CleanName("pack_color")]
 	[return: NativeType("unsigned short")]
-	public unsafe static short pack_color_viogkha([NativeType("class crnd::color_quad<unsigned char, int> const &")] void* color, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int bias)
+	public unsafe static short pack_color_ej3cup([NativeType("class crnd::color_quad<unsigned char, int> const &")] void* color, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int bias)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_color_viogkha.Invoke(color, scaled, bias);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_color_ej3cup.Invoke(color, scaled, bias);
 	}
 
 	[MangledName("?pack_color@dxt1_block@crnd@@SAGIII_NI@Z")]
 	[DemangledName("public: static unsigned short __cdecl crnd::dxt1_block::pack_color(unsigned int, unsigned int, unsigned int, bool, unsigned int)")]
 	[CleanName("pack_color")]
 	[return: NativeType("unsigned short")]
-	public static short pack_color_kobnz2a([NativeType("unsigned int")] int r, [NativeType("unsigned int")] int g, [NativeType("unsigned int")] int b, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int bias)
+	public static short pack_color_fji9pg([NativeType("unsigned int")] int r, [NativeType("unsigned int")] int g, [NativeType("unsigned int")] int b, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int bias)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_color_kobnz2a.Invoke(r, g, b, scaled, bias);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_color_fji9pg.Invoke(r, g, b, scaled, bias);
 	}
 
 	[MangledName("??0?$color_quad@EH@crnd@@QEAA@HHHH@Z")]
@@ -1734,10 +1734,10 @@ public static partial class Crunch
 	[DemangledName("public: static class crnd::color_quad<unsigned char, int> __cdecl crnd::dxt1_block::unpack_color(unsigned short, bool, unsigned int)")]
 	[CleanName("unpack_color")]
 	[return: NativeType("class crnd::color_quad<unsigned char, int>")]
-	public unsafe static crnd_color_quad unpack_color_ifs9dpd([NativeType("unsigned short")] short packed_color, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int alpha)
+	public unsafe static crnd_color_quad unpack_color_gac4s5([NativeType("unsigned short")] short packed_color, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int alpha)
 	{
 		crnd_color_quad result = default(crnd_color_quad);
-		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_color_ifs9dpd.Invoke(&result, packed_color, scaled, alpha);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_color_gac4s5.Invoke(&result, packed_color, scaled, alpha);
 		return result;
 	}
 
@@ -1745,9 +1745,9 @@ public static partial class Crunch
 	[DemangledName("public: static void __cdecl crnd::dxt1_block::unpack_color(unsigned int &, unsigned int &, unsigned int &, unsigned short, bool)")]
 	[CleanName("unpack_color")]
 	[return: NativeType("void")]
-	public unsafe static void unpack_color_bejelqb([NativeType("unsigned int &")] void* r, [NativeType("unsigned int &")] void* g, [NativeType("unsigned int &")] void* b, [NativeType("unsigned short")] short packed_color, [NativeType("bool")] bool scaled)
+	public unsafe static void unpack_color_dn9xcr([NativeType("unsigned int &")] void* r, [NativeType("unsigned int &")] void* g, [NativeType("unsigned int &")] void* b, [NativeType("unsigned short")] short packed_color, [NativeType("bool")] bool scaled)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_color_bejelqb.Invoke(r, g, b, packed_color, scaled);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_color_dn9xcr.Invoke(r, g, b, packed_color, scaled);
 	}
 
 	[MangledName("?get_block_colors3@dxt1_block@crnd@@SAIPEAV?$color_quad@EH@2@GG@Z")]
@@ -1794,10 +1794,10 @@ public static partial class Crunch
 	[DemangledName("public: static class crnd::color_quad<unsigned char, int> __cdecl crnd::dxt1_block::unpack_endpoint(unsigned int, unsigned int, bool, unsigned int)")]
 	[CleanName("unpack_endpoint")]
 	[return: NativeType("class crnd::color_quad<unsigned char, int>")]
-	public unsafe static crnd_color_quad unpack_endpoint_bamuzlc([NativeType("unsigned int")] int endpoints, [NativeType("unsigned int")] int index, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int alpha)
+	public unsafe static crnd_color_quad unpack_endpoint_38y887([NativeType("unsigned int")] int endpoints, [NativeType("unsigned int")] int index, [NativeType("bool")] bool scaled, [NativeType("unsigned int")] int alpha)
 	{
 		crnd_color_quad result = default(crnd_color_quad);
-		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_endpoint_bamuzlc.Invoke(&result, endpoints, index, scaled, alpha);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_endpoint_38y887.Invoke(&result, endpoints, index, scaled, alpha);
 		return result;
 	}
 
@@ -1805,9 +1805,9 @@ public static partial class Crunch
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt1_block::pack_endpoints(unsigned int, unsigned int)")]
 	[CleanName("pack_endpoints")]
 	[return: NativeType("unsigned int")]
-	public static int pack_endpoints_9g27hna([NativeType("unsigned int")] int lo, [NativeType("unsigned int")] int hi)
+	public static int pack_endpoints_ykg2i9([NativeType("unsigned int")] int lo, [NativeType("unsigned int")] int hi)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_endpoints_9g27hna.Invoke(lo, hi);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_endpoints_ykg2i9.Invoke(lo, hi);
 	}
 
 	[MangledName("?set_alpha@dxt3_block@crnd@@QEAAXIII_N@Z")]
@@ -1830,72 +1830,72 @@ public static partial class Crunch
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values6(class crnd::color_quad<unsigned char, int> *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values6")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values6_7gyjbyc([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values6_36ycpg([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values6_7gyjbyc.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values6_36ycpg.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?get_block_values8@dxt5_block@crnd@@SAIPEAV?$color_quad@EH@2@II@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values8(class crnd::color_quad<unsigned char, int> *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values8")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values8_xv25ufa([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values8_ekrbu2([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values8_xv25ufa.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values8_ekrbu2.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?get_block_values@dxt5_block@crnd@@SAIPEAV?$color_quad@EH@2@II@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values(class crnd::color_quad<unsigned char, int> *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values_pxz3b9a([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values_d4g83r([NativeType("class crnd::color_quad<unsigned char, int> *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values_pxz3b9a.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values_d4g83r.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?get_block_values6@dxt5_block@crnd@@SAIPEAIII@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values6(unsigned int *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values6")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values6_5klbycb([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values6_8iwdqp([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values6_5klbycb.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values6_8iwdqp.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?get_block_values8@dxt5_block@crnd@@SAIPEAIII@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values8(unsigned int *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values8")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values8_ml7jl2d([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values8_9fbjk8([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values8_ml7jl2d.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values8_9fbjk8.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?unpack_endpoint@dxt5_block@crnd@@SAIII@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::unpack_endpoint(unsigned int, unsigned int)")]
 	[CleanName("unpack_endpoint")]
 	[return: NativeType("unsigned int")]
-	public static int unpack_endpoint_w5z4hwb([NativeType("unsigned int")] int packed, [NativeType("unsigned int")] int index)
+	public static int unpack_endpoint_jppx25([NativeType("unsigned int")] int packed, [NativeType("unsigned int")] int index)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_endpoint_w5z4hwb.Invoke(packed, index);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_endpoint_jppx25.Invoke(packed, index);
 	}
 
 	[MangledName("?pack_endpoints@dxt5_block@crnd@@SAIII@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::pack_endpoints(unsigned int, unsigned int)")]
 	[CleanName("pack_endpoints")]
 	[return: NativeType("unsigned int")]
-	public static int pack_endpoints_ed3miea([NativeType("unsigned int")] int lo, [NativeType("unsigned int")] int hi)
+	public static int pack_endpoints_7af822([NativeType("unsigned int")] int lo, [NativeType("unsigned int")] int hi)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_endpoints_ed3miea.Invoke(lo, hi);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.pack_endpoints_7af822.Invoke(lo, hi);
 	}
 
 	[MangledName("?get_block_values@dxt5_block@crnd@@SAIPEAIII@Z")]
 	[DemangledName("public: static unsigned int __cdecl crnd::dxt5_block::get_block_values(unsigned int *, unsigned int, unsigned int)")]
 	[CleanName("Get_block_values")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int Get_block_values_2npk7qa([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
+	public unsafe static int Get_block_values_u8zixf([NativeType("unsigned int *")] void* pDst, [NativeType("unsigned int")] int l, [NativeType("unsigned int")] int h)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values_2npk7qa.Invoke(pDst, l, h);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.Get_block_values_u8zixf.Invoke(pDst, l, h);
 	}
 
 	[MangledName("?crnd_unpack_begin@crnd@@YAPEAXPEBXI@Z")]
@@ -1921,12 +1921,12 @@ public static partial class Crunch
 	[DemangledName("class crnd::crn_unpacker * __cdecl crnd::crnd_new<class crnd::crn_unpacker>(void)")]
 	[CleanName("crnd_new")]
 	[return: NativeType("class crnd::crn_unpacker *")]
-	public unsafe static void* crnd_new_xzix9sb()
+	public unsafe static void* crnd_new_jsasrf()
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_xzix9sb.Invoke();
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_new_jsasrf.Invoke();
 		}
 		catch
 		{
@@ -1941,12 +1941,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::crn_unpacker::init(void const *, unsigned int)")]
 	[CleanName("init")]
 	[return: NativeType("bool")]
-	public unsafe static bool init_lqqdgrc(void* @this, [NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size)
+	public unsafe static bool init_4dt3g9(void* @this, [NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_lqqdgrc.Invoke(@this, pData, data_size);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.init_4dt3g9.Invoke(@this, pData, data_size);
 		}
 		catch
 		{
@@ -1961,11 +1961,11 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::crnd_delete<class crnd::crn_unpacker>(class crnd::crn_unpacker *)")]
 	[CleanName("crnd_delete")]
 	[return: NativeType("void")]
-	public unsafe static void crnd_delete_e7rwdhb([NativeType("class crnd::crn_unpacker *")] void* p)
+	public unsafe static void crnd_delete_ps427s([NativeType("class crnd::crn_unpacker *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_e7rwdhb.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.crnd_delete_ps427s.Invoke(p);
 		}
 		catch
 		{
@@ -2019,9 +2019,9 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::crn_unpacker::unpack_level(void **, unsigned int, unsigned int, unsigned int)")]
 	[CleanName("unpack_level")]
 	[return: NativeType("bool")]
-	public unsafe static bool unpack_level_cvfjdga(void* @this, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
+	public unsafe static bool unpack_level_vni4dg(void* @this, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_level_cvfjdga.Invoke(@this, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_level_vni4dg.Invoke(@this, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
 	}
 
 	[MangledName("?crnd_unpack_level_segmented@crnd@@YA_NPEAXPEBXIPEAPEAXIII@Z")]
@@ -2036,9 +2036,9 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::crn_unpacker::unpack_level(void const *, unsigned int, void **, unsigned int, unsigned int, unsigned int)")]
 	[CleanName("unpack_level")]
 	[return: NativeType("bool")]
-	public unsafe static bool unpack_level_zjb72ec(void* @this, [NativeType("void const *")] void* pSrc, [NativeType("unsigned int")] int src_size_in_bytes, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
+	public unsafe static bool unpack_level_u9ch6s(void* @this, [NativeType("void const *")] void* pSrc, [NativeType("unsigned int")] int src_size_in_bytes, [NativeType("void **")] void* pDst, [NativeType("unsigned int")] int dst_size_in_bytes, [NativeType("unsigned int")] int row_pitch_in_bytes, [NativeType("unsigned int")] int level_index)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_level_zjb72ec.Invoke(@this, pSrc, src_size_in_bytes, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.unpack_level_u9ch6s.Invoke(@this, pSrc, src_size_in_bytes, pDst, dst_size_in_bytes, row_pitch_in_bytes, level_index);
 	}
 
 	[MangledName("?crnd_unpack_end@crnd@@YA_NPEAX@Z")]
@@ -2149,11 +2149,11 @@ public static partial class Crunch
 	[DemangledName("public: void __cdecl crnd::prefix_coding::decoder_tables::clear(void)")]
 	[CleanName("clear")]
 	[return: NativeType("void")]
-	public unsafe static void clear_ie5thac(void* @this)
+	public unsafe static void clear_v2azth(void* @this)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_ie5thac.Invoke(@this);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_v2azth.Invoke(@this);
 		}
 		catch
 		{
@@ -2289,12 +2289,12 @@ public static partial class Crunch
 	[DemangledName("public: bool __cdecl crnd::vector<unsigned int>::resize(unsigned int)")]
 	[CleanName("resize")]
 	[return: NativeType("bool")]
-	public unsafe static bool resize_a3d3m5b(void* @this, [NativeType("unsigned int")] int new_size)
+	public unsafe static bool resize_dreg6y(void* @this, [NativeType("unsigned int")] int new_size)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_a3d3m5b.Invoke(@this, new_size);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_dreg6y.Invoke(@this, new_size);
 		}
 		catch
 		{
@@ -2308,30 +2308,30 @@ public static partial class Crunch
 	[MangledName("??A?$vector@I@crnd@@QEAAAEAII@Z")]
 	[DemangledName("public: unsigned int & __cdecl crnd::vector<unsigned int>::operator[](unsigned int)")]
 	[return: NativeType("unsigned int &")]
-	public unsafe static void* vector_unsigned_int_Index(void* @this, [NativeType("unsigned int")] int i)
+	public unsafe static void* vector_unsigned_int_Operator(void* @this, [NativeType("unsigned int")] int i)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_int_Index.Invoke(@this, i);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_int_Operator.Invoke(@this, i);
 	}
 
 	[MangledName("?destruct_array@?$scalar_type@I@crnd@@SAXPEAII@Z")]
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned int>::destruct_array(unsigned int *, unsigned int)")]
 	[CleanName("destruct_array")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_array_rsqiwgc([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void destruct_array_h4d2m4([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_rsqiwgc.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_h4d2m4.Invoke(p, n);
 	}
 
 	[MangledName("?increase_capacity@?$vector@I@crnd@@AEAA_NI_N@Z")]
 	[DemangledName("private: bool __cdecl crnd::vector<unsigned int>::increase_capacity(unsigned int, bool)")]
 	[CleanName("increase_capacity")]
 	[return: NativeType("bool")]
-	public unsafe static bool increase_capacity_h5f4usb(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
+	public unsafe static bool increase_capacity_r6etif(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_h5f4usb.Invoke(@this, min_new_capacity, grow_hint);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_r6etif.Invoke(@this, min_new_capacity, grow_hint);
 		}
 		catch
 		{
@@ -2346,30 +2346,30 @@ public static partial class Crunch
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned int>::construct_array(unsigned int *, unsigned int)")]
 	[CleanName("construct_array")]
 	[return: NativeType("void")]
-	public unsafe static void construct_array_45u5mpd([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void construct_array_5nd2vv([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_45u5mpd.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_5nd2vv.Invoke(p, n);
 	}
 
 	[MangledName("??$zero_object@$$BY0BA@I@utils@crnd@@YAXAEAY0BA@I@Z")]
 	[DemangledName("void __cdecl crnd::utils::zero_object<unsigned int[16]>(unsigned int (&)[16])")]
 	[CleanName("zero_object")]
 	[return: NativeType("void")]
-	public unsafe static void zero_object_vtkonjd([NativeType("unsigned int (&)[16]")] void* obj)
+	public unsafe static void zero_object_ra884z([NativeType("unsigned int (&)[16]")] void* obj)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.zero_object_vtkonjd.Invoke(obj);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.zero_object_ra884z.Invoke(obj);
 	}
 
 	[MangledName("?resize@?$vector@G@crnd@@QEAA_NI@Z")]
 	[DemangledName("public: bool __cdecl crnd::vector<unsigned short>::resize(unsigned int)")]
 	[CleanName("resize")]
 	[return: NativeType("bool")]
-	public unsafe static bool resize_w95s75a(void* @this, [NativeType("unsigned int")] int new_size)
+	public unsafe static bool resize_9ubjj8(void* @this, [NativeType("unsigned int")] int new_size)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_w95s75a.Invoke(@this, new_size);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.resize_9ubjj8.Invoke(@this, new_size);
 		}
 		catch
 		{
@@ -2383,30 +2383,30 @@ public static partial class Crunch
 	[MangledName("??A?$vector@G@crnd@@QEAAAEAGI@Z")]
 	[DemangledName("public: unsigned short & __cdecl crnd::vector<unsigned short>::operator[](unsigned int)")]
 	[return: NativeType("unsigned short &")]
-	public unsafe static void* vector_unsigned_short_Index(void* @this, [NativeType("unsigned int")] int i)
+	public unsafe static void* vector_unsigned_short_Operator(void* @this, [NativeType("unsigned int")] int i)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_short_Index.Invoke(@this, i);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.vector_unsigned_short_Operator.Invoke(@this, i);
 	}
 
 	[MangledName("?destruct_array@?$scalar_type@G@crnd@@SAXPEAGI@Z")]
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned short>::destruct_array(unsigned short *, unsigned int)")]
 	[CleanName("destruct_array")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_array_l9jmj2b([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void destruct_array_93njbe([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_l9jmj2b.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_93njbe.Invoke(p, n);
 	}
 
 	[MangledName("?increase_capacity@?$vector@G@crnd@@AEAA_NI_N@Z")]
 	[DemangledName("private: bool __cdecl crnd::vector<unsigned short>::increase_capacity(unsigned int, bool)")]
 	[CleanName("increase_capacity")]
 	[return: NativeType("bool")]
-	public unsafe static bool increase_capacity_rjagtyd(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
+	public unsafe static bool increase_capacity_x4yxq7(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_rjagtyd.Invoke(@this, min_new_capacity, grow_hint);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_x4yxq7.Invoke(@this, min_new_capacity, grow_hint);
 		}
 		catch
 		{
@@ -2421,9 +2421,9 @@ public static partial class Crunch
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned short>::construct_array(unsigned short *, unsigned int)")]
 	[CleanName("construct_array")]
 	[return: NativeType("void")]
-	public unsafe static void construct_array_gqnztta([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void construct_array_2cauua([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_gqnztta.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_2cauua.Invoke(p, n);
 	}
 
 	[MangledName("?unpack_dxt1@crn_unpacker@crnd@@AEAA_NPEAPEAEIIIIII@Z")]
@@ -2462,9 +2462,9 @@ public static partial class Crunch
 	[DemangledName("public: unsigned int __cdecl crnd::vector<unsigned int>::size(void) const")]
 	[CleanName("size")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int size_7uifdkc(void* @this)
+	public unsafe static int size_878nzu(void* @this)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_7uifdkc.Invoke(@this);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_878nzu.Invoke(@this);
 	}
 
 	[MangledName("?limit@crn_unpacker@crnd@@CAXAEAII@Z")]
@@ -2479,56 +2479,56 @@ public static partial class Crunch
 	[DemangledName("public: unsigned int __cdecl crnd::vector<unsigned short>::size(void) const")]
 	[CleanName("size")]
 	[return: NativeType("unsigned int")]
-	public unsafe static int size_lxodu4b(void* @this)
+	public unsafe static int size_g72hpe(void* @this)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_lxodu4b.Invoke(@this);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.size_g72hpe.Invoke(@this);
 	}
 
 	[MangledName("??$construct_array@I@helpers@crnd@@YAXPEAII@Z")]
 	[DemangledName("void __cdecl crnd::helpers::construct_array<unsigned int>(unsigned int *, unsigned int)")]
 	[CleanName("construct_array")]
 	[return: NativeType("void")]
-	public unsafe static void construct_array_rijpqya([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void construct_array_7hpyj8([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_rijpqya.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_7hpyj8.Invoke(p, n);
 	}
 
 	[MangledName("??$construct_array@G@helpers@crnd@@YAXPEAGI@Z")]
 	[DemangledName("void __cdecl crnd::helpers::construct_array<unsigned short>(unsigned short *, unsigned int)")]
 	[CleanName("construct_array")]
 	[return: NativeType("void")]
-	public unsafe static void construct_array_pri7s5c([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void construct_array_smzb78([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_pri7s5c.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_smzb78.Invoke(p, n);
 	}
 
 	[MangledName("??$destruct_array@I@helpers@crnd@@YAXPEAII@Z")]
 	[DemangledName("void __cdecl crnd::helpers::destruct_array<unsigned int>(unsigned int *, unsigned int)")]
 	[CleanName("destruct_array")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_array_lrbdoxa([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void destruct_array_yfmkw8([NativeType("unsigned int *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_lrbdoxa.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_yfmkw8.Invoke(p, n);
 	}
 
 	[MangledName("??$destruct_array@G@helpers@crnd@@YAXPEAGI@Z")]
 	[DemangledName("void __cdecl crnd::helpers::destruct_array<unsigned short>(unsigned short *, unsigned int)")]
 	[CleanName("destruct_array")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_array_viasmsc([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void destruct_array_v2phiu([NativeType("unsigned short *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_viasmsc.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_v2phiu.Invoke(p, n);
 	}
 
 	[MangledName("??$destruct@Vdecoder_tables@prefix_coding@crnd@@@helpers@crnd@@YAXPEAVdecoder_tables@prefix_coding@1@@Z")]
 	[DemangledName("void __cdecl crnd::helpers::destruct<class crnd::prefix_coding::decoder_tables>(class crnd::prefix_coding::decoder_tables *)")]
 	[CleanName("destruct")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_py7r2pc([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
+	public unsafe static void destruct_kgci2b([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_py7r2pc.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_kgci2b.Invoke(p);
 		}
 		catch
 		{
@@ -2577,12 +2577,12 @@ public static partial class Crunch
 	[DemangledName("private: bool __cdecl crnd::vector<unsigned char>::increase_capacity(unsigned int, bool)")]
 	[CleanName("increase_capacity")]
 	[return: NativeType("bool")]
-	public unsafe static bool increase_capacity_a7boycc(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
+	public unsafe static bool increase_capacity_2iysmi(void* @this, [NativeType("unsigned int")] int min_new_capacity, [NativeType("bool")] bool grow_hint)
 	{
 		bool result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_a7boycc.Invoke(@this, min_new_capacity, grow_hint);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.increase_capacity_2iysmi.Invoke(@this, min_new_capacity, grow_hint);
 		}
 		catch
 		{
@@ -2597,12 +2597,12 @@ public static partial class Crunch
 	[DemangledName("class crnd::prefix_coding::decoder_tables * __cdecl crnd::helpers::construct<class crnd::prefix_coding::decoder_tables, class crnd::prefix_coding::decoder_tables>(class crnd::prefix_coding::decoder_tables *, class crnd::prefix_coding::decoder_tables const &)")]
 	[CleanName("construct")]
 	[return: NativeType("class crnd::prefix_coding::decoder_tables *")]
-	public unsafe static void* construct_zybj4yc([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p, [NativeType("class crnd::prefix_coding::decoder_tables const &")] void* init)
+	public unsafe static void* construct_va3fwv([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p, [NativeType("class crnd::prefix_coding::decoder_tables const &")] void* init)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.construct_zybj4yc.Invoke(p, init);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.construct_va3fwv.Invoke(p, init);
 		}
 		catch
 		{
@@ -2616,12 +2616,12 @@ public static partial class Crunch
 	[MangledName("??0decoder_tables@prefix_coding@crnd@@QEAA@AEBV012@@Z")]
 	[DemangledName("public: __cdecl crnd::prefix_coding::decoder_tables::decoder_tables(class crnd::prefix_coding::decoder_tables const &)")]
 	[CleanName("decoder_tables_Constructor")]
-	public unsafe static void* decoder_tables_Constructor_3v4xfjd(void* @this, [NativeType("class crnd::prefix_coding::decoder_tables const &")] void* other)
+	public unsafe static void* decoder_tables_Constructor_jcwqfb(void* @this, [NativeType("class crnd::prefix_coding::decoder_tables const &")] void* other)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.decoder_tables_Constructor_3v4xfjd.Invoke(@this, other);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.decoder_tables_Constructor_jcwqfb.Invoke(@this, other);
 		}
 		catch
 		{
@@ -2636,35 +2636,35 @@ public static partial class Crunch
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned char>::destruct_array(unsigned char *, unsigned int)")]
 	[CleanName("destruct_array")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_array_dhbxund([NativeType("unsigned char *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void destruct_array_s3iq3j([NativeType("unsigned char *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_dhbxund.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_array_s3iq3j.Invoke(p, n);
 	}
 
 	[MangledName("?construct_array@?$scalar_type@E@crnd@@SAXPEAEI@Z")]
 	[DemangledName("public: static void __cdecl crnd::scalar_type<unsigned char>::construct_array(unsigned char *, unsigned int)")]
 	[CleanName("construct_array")]
 	[return: NativeType("void")]
-	public unsafe static void construct_array_oifcoec([NativeType("unsigned char *")] void* p, [NativeType("unsigned int")] int n)
+	public unsafe static void construct_array_mseefg([NativeType("unsigned char *")] void* p, [NativeType("unsigned int")] int n)
 	{
-		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_oifcoec.Invoke(p, n);
+		AssetRipper.Conversions.Crunch.GlobalFunctions.construct_array_mseefg.Invoke(p, n);
 	}
 
 	[MangledName("??$construct@Vdecoder_tables@prefix_coding@crnd@@@helpers@crnd@@YAPEAVdecoder_tables@prefix_coding@1@PEAV231@@Z")]
 	[DemangledName("class crnd::prefix_coding::decoder_tables * __cdecl crnd::helpers::construct<class crnd::prefix_coding::decoder_tables>(class crnd::prefix_coding::decoder_tables *)")]
 	[CleanName("construct")]
 	[return: NativeType("class crnd::prefix_coding::decoder_tables *")]
-	public unsafe static void* construct_e5fhx3a([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
+	public unsafe static void* construct_uri2px([NativeType("class crnd::prefix_coding::decoder_tables *")] void* p)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.construct_e5fhx3a.Invoke(p);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.construct_uri2px.Invoke(p);
 	}
 
 	[MangledName("??0decoder_tables@prefix_coding@crnd@@QEAA@XZ")]
 	[DemangledName("public: __cdecl crnd::prefix_coding::decoder_tables::decoder_tables(void)")]
 	[CleanName("decoder_tables_Constructor")]
-	public unsafe static void* decoder_tables_Constructor_2o5uqyd(void* @this)
+	public unsafe static void* decoder_tables_Constructor_zsf5x5(void* @this)
 	{
-		return AssetRipper.Conversions.Crunch.GlobalFunctions.decoder_tables_Constructor_2o5uqyd.Invoke(@this);
+		return AssetRipper.Conversions.Crunch.GlobalFunctions.decoder_tables_Constructor_zsf5x5.Invoke(@this);
 	}
 
 	[MangledName("?clamp@?$color_quad@EH@crnd@@CAHH@Z")]
@@ -2679,12 +2679,12 @@ public static partial class Crunch
 	[DemangledName("class crnd::crn_unpacker * __cdecl crnd::helpers::construct<class crnd::crn_unpacker>(class crnd::crn_unpacker *)")]
 	[CleanName("construct")]
 	[return: NativeType("class crnd::crn_unpacker *")]
-	public unsafe static void* construct_bzfae7a([NativeType("class crnd::crn_unpacker *")] void* p)
+	public unsafe static void* construct_fgrjha([NativeType("class crnd::crn_unpacker *")] void* p)
 	{
 		void* result;
 		try
 		{
-			result = AssetRipper.Conversions.Crunch.GlobalFunctions.construct_bzfae7a.Invoke(p);
+			result = AssetRipper.Conversions.Crunch.GlobalFunctions.construct_fgrjha.Invoke(p);
 		}
 		catch
 		{
@@ -2763,11 +2763,11 @@ public static partial class Crunch
 	[DemangledName("public: void __cdecl crnd::vector<unsigned short>::clear(void)")]
 	[CleanName("clear")]
 	[return: NativeType("void")]
-	public unsafe static void clear_bqconyd(void* @this)
+	public unsafe static void clear_isy3cf(void* @this)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_bqconyd.Invoke(@this);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_isy3cf.Invoke(@this);
 		}
 		catch
 		{
@@ -2781,11 +2781,11 @@ public static partial class Crunch
 	[DemangledName("public: void __cdecl crnd::vector<unsigned int>::clear(void)")]
 	[CleanName("clear")]
 	[return: NativeType("void")]
-	public unsafe static void clear_utei2oa(void* @this)
+	public unsafe static void clear_2hj7fd(void* @this)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_utei2oa.Invoke(@this);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.clear_2hj7fd.Invoke(@this);
 		}
 		catch
 		{
@@ -2799,11 +2799,11 @@ public static partial class Crunch
 	[DemangledName("void __cdecl crnd::helpers::destruct<class crnd::crn_unpacker>(class crnd::crn_unpacker *)")]
 	[CleanName("destruct")]
 	[return: NativeType("void")]
-	public unsafe static void destruct_f77lq2b([NativeType("class crnd::crn_unpacker *")] void* p)
+	public unsafe static void destruct_msam3p([NativeType("class crnd::crn_unpacker *")] void* p)
 	{
 		try
 		{
-			AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_f77lq2b.Invoke(p);
+			AssetRipper.Conversions.Crunch.GlobalFunctions.destruct_msam3p.Invoke(p);
 		}
 		catch
 		{

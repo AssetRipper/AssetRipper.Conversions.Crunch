@@ -10,7 +10,7 @@ internal static partial class crnd_get_level_info
 	[return: NativeType("bool")]
 	public unsafe static bool Invoke([NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size, [NativeType("unsigned int")] int level_index, [NativeType("struct crnd::crn_level_info *")] void* pLevel_info)
 	{
-		crnd_crn_header crnd_crn_header = default(crnd_crn_header);
+		crnd_crn_header crnd_crn_header2 = default(crnd_crn_header);
 		unchecked
 		{
 			if (pData == null || (uint)data_size < 62u || pLevel_info == null)
@@ -21,8 +21,8 @@ internal static partial class crnd_get_level_info
 			{
 				return false;
 			}
-			crn_header_Constructor.Invoke(&crnd_crn_header);
-			void* ptr = crnd_get_header.Invoke(&crnd_crn_header, pData, data_size);
+			crn_header_Constructor.Invoke(&crnd_crn_header2);
+			void* ptr = crnd_get_header.Invoke(&crnd_crn_header2, pData, data_size);
 			if (ptr == null)
 			{
 				return false;

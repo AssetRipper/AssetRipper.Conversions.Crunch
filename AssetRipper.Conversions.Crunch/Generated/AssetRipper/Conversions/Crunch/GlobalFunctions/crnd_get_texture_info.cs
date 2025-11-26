@@ -10,7 +10,7 @@ internal static partial class crnd_get_texture_info
 	[return: NativeType("bool")]
 	public unsafe static bool Invoke([NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size, [NativeType("struct crnd::crn_texture_info *")] void* pInfo)
 	{
-		crnd_crn_header crnd_crn_header = default(crnd_crn_header);
+		crnd_crn_header crnd_crn_header2 = default(crnd_crn_header);
 		unchecked
 		{
 			if (pData == null || (ulong)(uint)data_size < 74uL || pInfo == null)
@@ -21,8 +21,8 @@ internal static partial class crnd_get_texture_info
 			{
 				return false;
 			}
-			crn_header_Constructor.Invoke(&crnd_crn_header);
-			void* ptr = crnd_get_header.Invoke(&crnd_crn_header, pData, data_size);
+			crn_header_Constructor.Invoke(&crnd_crn_header2);
+			void* ptr = crnd_get_header.Invoke(&crnd_crn_header2, pData, data_size);
 			if (ptr == null)
 			{
 				return false;

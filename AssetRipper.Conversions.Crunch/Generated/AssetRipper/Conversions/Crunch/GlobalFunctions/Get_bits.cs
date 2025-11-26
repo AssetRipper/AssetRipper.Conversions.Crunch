@@ -15,7 +15,7 @@ internal static partial class Get_bits
 		{
 			if ((uint)num_bits > 32u)
 			{
-				crnd_assert.Invoke(String_bhrpdhd.__pointer, String_yguirrd.__pointer, 3199);
+				crnd_assert.Invoke(String_ya7rpa.__pointer, String_vvx8bt.__pointer, 3199);
 			}
 			while (((crnd_symbol_codec*)@this)->m_bit_count < num_bits)
 			{
@@ -33,7 +33,7 @@ internal static partial class Get_bits
 					unchecked((crnd_symbol_codec*)@this)->m_bit_count += 8;
 					if (unchecked((crnd_symbol_codec*)@this)->m_bit_count > 32)
 					{
-						crnd_assert.Invoke(String_kf9n5db.__pointer, String_yguirrd.__pointer, 3208);
+						crnd_assert.Invoke(String_igi64g.__pointer, String_vvx8bt.__pointer, 3208);
 					}
 					num2 = num << 32 - unchecked((crnd_symbol_codec*)@this)->m_bit_count;
 				}

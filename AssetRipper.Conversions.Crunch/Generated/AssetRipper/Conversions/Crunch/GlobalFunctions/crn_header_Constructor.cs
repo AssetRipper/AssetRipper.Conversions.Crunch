@@ -31,14 +31,14 @@ internal static partial class crn_header_Constructor
 			crn_palette_Constructor.Invoke(&((crnd_crn_header*)@this)->m_alpha_selectors);
 			crn_packed_uint_2_Constructor.Invoke(&((crnd_crn_header*)@this)->m_tables_size);
 			crn_packed_uint_3_Constructor.Invoke(&((crnd_crn_header*)@this)->m_tables_ofs);
-			crnd_crn_packed_uint_jymcebc* level_ofs = (crnd_crn_packed_uint_jymcebc*)(&((crnd_crn_header*)@this)->m_level_ofs);
-			crnd_crn_packed_uint_jymcebc* ptr = level_ofs + 1;
-			crnd_crn_packed_uint_jymcebc* intPtr = level_ofs;
+			crnd_crn_packed_uint_25ciii* level_ofs = (crnd_crn_packed_uint_25ciii*)(&((crnd_crn_header*)@this)->m_level_ofs);
+			crnd_crn_packed_uint_25ciii* ptr = level_ofs + 1;
+			crnd_crn_packed_uint_25ciii* intPtr = level_ofs;
 			while (true)
 			{
 				void* ptr2 = intPtr;
 				crn_packed_uint_4_Constructor.Invoke(ptr2);
-				crnd_crn_packed_uint_jymcebc* ptr3 = (crnd_crn_packed_uint_jymcebc*)ptr2 + 1;
+				crnd_crn_packed_uint_25ciii* ptr3 = (crnd_crn_packed_uint_25ciii*)ptr2 + 1;
 				if (ptr3 == ptr)
 				{
 					break;

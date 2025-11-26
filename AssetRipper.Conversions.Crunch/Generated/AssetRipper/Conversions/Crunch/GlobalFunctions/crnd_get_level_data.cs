@@ -10,7 +10,7 @@ internal static partial class crnd_get_level_data
 	[return: NativeType("void const *")]
 	public unsafe static void* Invoke([NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size, [NativeType("unsigned int")] int level_index, [NativeType("unsigned int *")] void* pSize)
 	{
-		crnd_crn_header crnd_crn_header = default(crnd_crn_header);
+		crnd_crn_header crnd_crn_header2 = default(crnd_crn_header);
 		unchecked
 		{
 			if (pSize != null)
@@ -21,8 +21,8 @@ internal static partial class crnd_get_level_data
 			{
 				return null;
 			}
-			crn_header_Constructor.Invoke(&crnd_crn_header);
-			void* ptr = crnd_get_header.Invoke(&crnd_crn_header, pData, data_size);
+			crn_header_Constructor.Invoke(&crnd_crn_header2);
+			void* ptr = crnd_get_header.Invoke(&crnd_crn_header2, pData, data_size);
 			if (ptr == null)
 			{
 				return null;
@@ -31,13 +31,13 @@ internal static partial class crnd_get_level_data
 			{
 				return null;
 			}
-			int num = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)level_index * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
+			int num = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)level_index * (nint)sizeof(crnd_crn_packed_uint_25ciii));
 			if (pSize != null)
 			{
 				int num2 = data_size;
 				if ((uint)(level_index + 1) < (uint)crn_packed_uint_1_ToUInt32.Invoke(&((crnd_crn_header*)ptr)->m_levels))
 				{
-					num2 = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)(level_index + 1) * (nint)sizeof(crnd_crn_packed_uint_jymcebc));
+					num2 = crn_packed_uint_4_ToUInt32.Invoke((byte*)(&((crnd_crn_header*)ptr)->m_level_ofs) + (nint)(uint)(level_index + 1) * (nint)sizeof(crnd_crn_packed_uint_25ciii));
 				}
 				*(int*)pSize = num2 - num;
 			}

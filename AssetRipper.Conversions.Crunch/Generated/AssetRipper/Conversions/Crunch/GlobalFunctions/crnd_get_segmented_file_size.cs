@@ -10,15 +10,15 @@ internal static partial class crnd_get_segmented_file_size
 	[return: NativeType("unsigned int")]
 	public unsafe static int Invoke([NativeType("void const *")] void* pData, [NativeType("unsigned int")] int data_size)
 	{
-		crnd_crn_header crnd_crn_header = default(crnd_crn_header);
+		crnd_crn_header crnd_crn_header2 = default(crnd_crn_header);
 		unchecked
 		{
 			if (pData == null || (uint)data_size < 62u)
 			{
 				return 0;
 			}
-			crn_header_Constructor.Invoke(&crnd_crn_header);
-			void* ptr = crnd_get_header.Invoke(&crnd_crn_header, pData, data_size);
+			crn_header_Constructor.Invoke(&crnd_crn_header2);
+			void* ptr = crnd_get_header.Invoke(&crnd_crn_header2, pData, data_size);
 			if (ptr == null)
 			{
 				return 0;
